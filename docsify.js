@@ -130,7 +130,7 @@
                 externalLinkRel: "noopener",
                 routerMode: "hash",
                 noCompileLinks: [],
-                crossOriginLinks: [],
+                crossOriginLinks: [''],
                 relativePath: !1,
                 topMargin: 0
             }, "function" == typeof window.$docsify ? window.$docsify(e) : window.$docsify),
@@ -514,7 +514,8 @@
                 else {
                     if (!K && !W && !V && -1 === e.indexOf("<")) return k && ee ? k.createHTML(e) : e;
                     if (!(r = ve(e))) return K ? null : w
-                } r && X && ge(r.firstChild);
+                }
+            r && X && ge(r.firstChild);
             for (var o = be(re ? e : r); n = o.nextNode();) 3 === n.nodeType && n === i || we(n) || (n.content instanceof u && Se(n.content), _e(n), i = n);
             if (i = null, re) return e;
             if (K) {
@@ -754,7 +755,7 @@
             return {
                 up: this.next < this.end && e <= this.next,
                 down: this.next > this.end && e >= this.next
-            } [this.direction]
+            }[this.direction]
         }
     }, {
         key: "_defaultEase",
@@ -1974,7 +1975,8 @@
                                     if (i == e)
                                         for (var s in t) t.hasOwnProperty(s) && (o[s] = t[s]);
                                     t.hasOwnProperty(i) || (o[i] = a[i])
-                                } var l = r[n];
+                                }
+                            var l = r[n];
                             return r[n] = o, O.languages.DFS(O.languages, function(e, t) {
                                 t === l && e != n && (this[e] = o)
                             }), o
@@ -2640,7 +2642,8 @@
                     n.splice(a, 1);
                     for (var s = a; s < n.length && o < n[s].level; s++) n.splice(s, 1) && s-- && a++;
                     a--
-                } t = this.cacheTree[r] || hn(n, t), i = pn(t, "<ul>{inner}</ul>");
+                }
+            t = this.cacheTree[r] || hn(n, t), i = pn(t, "<ul>{inner}</ul>");
             this.cacheTree[r] = t
         }
         return i
@@ -2981,7 +2984,7 @@
         return "string" == typeof e[1] && 0 < e[1].length && e[1].toLowerCase() !== location.protocol || "string" == typeof e[2] && 0 < e[2].length && e[2].replace(new RegExp(":(" + {
             "http:": 80,
             "https:": 443
-        } [location.protocol] + ")?$"), "") !== location.host
+        }[location.protocol] + ")?$"), "") !== location.host
     }
     var Un = Object.freeze({
         __proto__: null,

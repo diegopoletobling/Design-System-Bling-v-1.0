@@ -1,8 +1,0 @@
-.rating { cursor: pointer; display: block; width: 100px;}
-.rating:after { content: '.'; display: block; height: 0;width: 0;clear: both; visibility: hidden;}
-.cancel, .star {float: left; width: 17px;height: 17px;overflow: hidden;text-indent: -999em;cursor: pointer; margin-top:-2px;}
-.star,
-.star a {background: url(../images/novas-estrelas-de-avaliacao.png) no-repeat 0 -17px;}
-.star a { display: block; width: 100%; height: 100%; background-position: 0 -17px;}
-div.rating div.on a { background-position: 0 0px;}
-div.done, div.done a { cursor: default; pointer-events: none;}
