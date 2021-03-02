@@ -1,0 +1,250 @@
+/* --- específico form.alteraca.plano */
+#plano-boleto,
+#plano-cartao {
+	margin-top: 30px;
+	padding-right: 30px;
+}
+
+#plano-boleto select:disabled,
+#form-confirma-dados select:disabled,
+#plano-cartao select:disabled {
+	background-color: #FFFFFF
+}
+
+.dados-novo-plano .alterar {
+	position: relative;
+    left: 20px;
+    bottom: -7px;
+	cursor: pointer;
+    font: Bold 13px Helvetica;
+    text-decoration: underline;
+    letter-spacing: 0;
+    color: #7CB2D5;
+}
+
+#plano-cartao #cartao-ico {
+    position: relative;
+    display: block;
+    top: 12px;
+    font-size: 35px;
+    color: #999999;
+}
+
+#plano-cartao img.cartao-ico {
+	position: relative;
+    display: block;
+    top: 15px;
+    height: 30px;
+}
+
+.dados-novo-plano {
+	color: #3F3D3D;
+	padding-top: 5px;
+	padding: 0 0 50px 20px;
+}
+
+.dados-novo-plano .checkbox-concorda input[type=checkbox] {
+	width: 15px;
+	height: 15px;
+}
+
+.dados-novo-plano .checkbox-concorda label {
+	font-size: 15px;
+}
+
+.dados-novo-plano .checkbox-concorda {
+	margin-top: 30px;
+	font: Regular 12px Helvetica;
+	color: #3F3D3D;
+}
+
+.dados-novo-plano .subtitle {
+	margin: 20px 0;
+	font: Bold 13px Helvetica;
+	color: #999999;
+}
+
+.dados-novo-plano .dados-pagamento,
+.dados-novo-plano .dados-cadastrais {
+	margin-left: 30px;
+}
+.dados-novo-plano .dados-pagamento .planos-title {
+	margin-bottom: 20px;
+}
+
+.dados-novo-plano .buttons {
+	margin-top: 50px;
+}
+.dados-novo-plano .buttons input[type=button] {
+	margin-left: 0 !important;
+	margin-right: 10px !important;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.dados-pagamento .select-forma-pagamento {
+	margin-top: 10px;
+	width: 245px;
+}
+
+.detalhes-novo-plano {
+	width: 775px;
+	height: 70px;
+	margin: 20px 0 30px 30px;
+	border: 1px solid #DCDCDC;
+}
+
+.detalhes-novo-plano .detalhe-item {
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	height: 50px;
+	border-right: 1px solid #DCDCDC;
+}
+
+.detalhes-novo-plano div:last-child {
+	border: none;
+}
+
+.detalhes-novo-plano .detalhe-label,
+.detalhes-novo-plano .detalhe-content {
+	display: block;
+	margin-left: 20px;
+}
+
+.detalhes-novo-plano .detalhe-content {
+	margin-top: 5px;
+	font: Bold 23px Arial;;
+}
+
+#planos-container {
+	display: table;
+}
+
+.planos-header {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: flex;
+}
+
+.planos-header .func-subtitle li {
+    display: inline-block;
+}
+
+.planos-header .glyphicon {
+	font-size: 16px;
+}
+
+.planos-header ul {
+	margin-left: auto;
+	margin-right: 70px;
+}
+
+span.planos-title {
+	float: left;
+	font: Bold 23px Arial;
+}
+
+.dp-label-large-first,
+.dp-label-large-second {
+	position: absolute;
+	width: 85px;
+	height: 16px;
+	left: 10px;
+	top: 24px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3F3D3D
+}
+
+.dp-label-small-first,
+.dp-label-small-second {
+	font-size: 12px;
+	display: block;
+    position: absolute;
+    left: 10px;
+	top: 10px;
+	color: #3F3D3D
+}
+
+.dp-label-large-second {
+	left: 90px;
+}
+
+.dp-label-small-second {
+    left: 90px;
+}
+
+.content-plano-diff {
+	margin-left: 80px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.title-plano-diff {
+	margin-top: 20px;
+    font-size: 17px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+    color: #3F3D3D;
+}
+
+.content-plano-diff >  span {
+	margin-top: 15px;
+	display: block;
+}
+
+.content-plano-diff .icone-diff-menos {
+	color: #E6554E;
+	font-size: 15px;
+}
+
+.content-plano-diff .icone-diff-mais {
+	color: #3faf6c;
+	font-size: 15px;
+}
+
+.plano-diff,
+.plano-diff-ok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 18px;
+	display: inline;
+}
+
+.plano-diff-spacer {
+	width: 85%;
+    margin: 10px auto;
+    border: 1px solid #B9B9B9;
+}
+
+.square-plano {
+	width: 177px;
+	height: 52px;
+	border-radius: 10px;
+	border: 1px solid #B9B9B9;
+	position: absolute;
+}
+
+.arrow-dialog-plano {
+	display: table;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	left: 235px;
+	color:  #707070
+}
+
+.arrow-dialog-plano div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center
+}
+
+/* ------------ FIM CSS ESPECIFICO TELA ALTERACAO PLANO------------- */

@@ -1,0 +1,12 @@
+@media screen and (max-width:991px) {
+    .exclamation-items.col-xs-offset-4 {
+        margin-left: 15%
+    }
+    .align-top {
+        margin-top: 5vh;
+    }
+}
+
+.align-top {
+    margin-top: 15vh;
+}

@@ -1,0 +1,234 @@
+.subtitle-list {
+    font: bold 16px arial;
+    color: #888888;
+}
+.subtitle-list b {
+    color: #3B3A3A;
+}
+#lista_aplicativos #container_aplicativos {
+    float: none;
+}
+
+#lista #content .box-section .section-content {
+    margin-bottom: 25px;
+    padding: 30px;
+    min-height: 483px;
+}
+
+.app-container {
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 2px 4px #00000029;
+    margin-bottom: 16px;
+}
+
+#app_site a {
+    word-break: break-all;
+}
+
+.aplicativo-row {
+    height: 80px;
+}
+
+.aplicativo-row .aplicativo-img {
+    width: 40px;
+    padding-top: 18px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.aplicativo-row .aplicativo-img img {
+    height: 40px;
+    width: 40px;
+}
+
+.aplicativo-row .aplicativo-title {
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.aplicativo-row .aplicativo-title p {
+    margin: 0;
+}
+
+.aplicativo-row .aplicativo-title p:first-of-type {
+    margin-top: 10px;
+}
+
+.aplicativo-row .aplicativo-title p:nth-last-of-type(1) {
+    margin-bottom: 5px;
+}
+
+.aplicativo-row .aplicativo-buttons button {
+    display: none;
+    float: right;
+    margin-right: 10%;
+}
+
+.aplicativo-row:hover .aplicativo-buttons button {
+    display: block;
+}
+
+#info {
+    padding: 0;
+}
+
+#info #content {
+    float: none;
+    background-color: rgb(242, 250, 248);
+}
+
+.aplicativo-form {
+    width: 46%;
+    padding-right: 10px;
+}
+
+#info #aplicativo-info {
+    max-width: 654px;
+    padding-top: 7px;
+}
+
+#aplicativo-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#info form .row {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+#scopes {
+    max-height: 300px;
+    overflow: auto;
+    margin-top: 2px;
+}
+
+#info .aplicativo-title {
+    font: Bold 20px Arial;
+    color: #3FAC66;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#info .aplicativo-label {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#info .aplicativo-img img {
+    height: 75px;
+    width: 75px;
+}
+
+#info .aplicativo-description {
+    color: #3FAC66;
+    margin-top: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+#info .aplicativo-description.aplicativo-description-error {
+    color: #DD6F77;
+    font-weight: bold;
+}
+
+#btn_voltar {
+    width: 100px;
+}
+
+#btn_revogar {
+    float: right;
+}
+
+#aplicativo-info .aplicativo-img {
+    float: right;
+}
+
+.box-question {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+@media screen and (max-width: 991px) {
+    .row .col-md-6:not(:nth-last-child(1)) {
+        margin-bottom: 10px;
+    }
+
+    #lista .block-inner {
+        padding: 0;
+    }
+    .aplicativo-row .aplicativo-img {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .aplicativo-form {
+        position: static;
+        border-right: none !important;
+        width: initial;
+    }
+
+    #info .aplicativo-form #aplicativo-info {
+        max-width: initial;
+    }
+
+    .box-question {
+        position: relative !important;
+        margin-top: 20px;
+        top: 0;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .aplicativo-row .aplicativo-buttons button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    #lista #content .box-section .section-content {
+        padding: 5px 0 0;
+        border: none;
+    }
+
+    #container_aplicativos .aplicativo-row {
+        text-align: center;
+    }
+
+    #container_aplicativos .aplicativo-row td {
+        display: inline-block;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-buttons, #container_aplicativos .aplicativo-row .aplicativo-title {
+        display: block;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-buttons button{
+        display: inline-block;
+        float: none;
+        margin-right: 0;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-img {
+        width: 85px;
+        padding-bottom: 10px;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-img img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-title {
+        padding: 5px 0 0;
+    }
+
+    #container_aplicativos .aplicativo-row .aplicativo-buttons {
+        min-height: 60px;
+    }
+}

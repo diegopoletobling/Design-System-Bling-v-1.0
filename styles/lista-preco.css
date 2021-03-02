@@ -1,0 +1,379 @@
+.margin-bottom-8 {
+	margin-bottom: 8px;
+}
+
+.margin-bottom-16 {
+	margin-bottom: 16px;
+}
+
+.padding-right-0 {
+	padding-right: 0;
+}
+
+.padding-left-0 {
+	padding-left: 0;
+}
+
+.form-edit {
+	height: auto !important ;
+	min-height: 100% !important;
+	overflow: hidden !important;
+	background: rgb(242, 250, 248) !important;
+}
+.tab-control {
+	width: 100%;
+	border-bottom: 1px solid #C9C9C9;
+	opacity: 1;
+	padding: 8px 0;
+	margin: 5px 10px 0;
+}
+
+.tab-control div {
+	position: relative;
+	display: inline;
+}
+
+.tab-control a {
+	text-align: left;
+	font-size: 14px;
+	font-family: Gilroy-Regular, Arial;
+	letter-spacing: 0px;
+	color: #666;
+	opacity: 1;
+	text-decoration: none;
+	padding: 7px 14px;
+}
+
+.tab-control a:hover {
+	border-bottom: 3px solid #666;
+	opacity: 1;
+}
+
+.tab-control a.selected {
+	font-weight: bold;
+	border-bottom: 3px solid #01D67C;
+	opacity: 1;
+	color: #3FAF6C;
+}
+
+.tab-control div a span {
+	background: #FD6078 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: #fff;
+	font-size: 11px;
+	padding: 2px 5px;
+	font-weight: bold;
+	font-family: Arial;
+	position: absolute;
+}
+
+.fa-exclamation-circle {
+	font-size: 60px !important;
+}
+
+.exclamation-items {
+	margin-top: 148px;
+}
+
+.margin-bottom-8 {
+	margin-bottom: 8px;
+}
+
+.icon-btn-reajuste-preco {
+	color: #05AAE9;
+	font-size: 15px;
+	margin-right: 9px;
+}
+
+.conversao-unidade button,
+.taxa-aplicada.conversao-unidade button {
+	top: 24px !important;
+	height: 25px !important;
+	width: 25px !important;
+}
+
+.conversao-unidade button {
+	top: 8px !important;
+	height: 25px !important;
+	width: 25px !important;
+}
+
+.conversao-unidade {
+	display: block !important;
+}
+
+.apply-to input:enabled ~ span.icon-info-sign {
+	display: none;
+}
+
+.apply-to input:disabled + label {
+	color: #bebebe;
+}
+
+.apply-to input:disabled ~ span.icon-info-sign {
+	margin-left: 5px;
+	display: inline;
+}
+
+.button-actions-save input {
+	margin: 5px 0px 5px 15px !important
+}
+
+.search-input {
+	min-width: 240px;
+}
+
+.icon-info-novo {
+	padding: 3px;
+}
+
+.detalhes .input-radio input[type="radio"] + label:before {
+	margin: 0px 6px 0px 2px;
+}
+
+#tabela_lista_produtos .exclamation-items {
+	margin-bottom: 148px;
+}
+
+#tabela_lista_produtos {
+	height: 500px;
+	display: grid;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#lista {
+	margin: 10px;
+}
+
+#lista_preco_resumo h1 {
+	font-family: "Gilroy-Bold";
+	font-weight: normal;
+	font-size: 24px;
+	color: #666;
+}
+
+#lista_info_impressao div[data-tipo="1"] strong:before,
+#lista_info div[data-tipo="1"] strong:before {
+	content: "Percentual/valor";
+}
+
+#lista_info_impressao div[data-tipo="2"] strong:before,
+#lista_info div[data-tipo="2"] strong:before {
+	content: "Período";
+}
+
+#lista_info_impressao div[data-tipo="3"] strong:before,
+#lista_info div[data-tipo="3"] strong:before {
+	content: "Customizável";
+}
+
+#lista_info div[data-tipo-fator="1"] strong:before {
+	content: "Porcentagem";
+}
+
+#lista_info div[data-tipo-fator="2"] strong:before {
+	content: "Valor";
+}
+
+#lista_info div[data-validade="0"],
+#lista_info div[data-hora="0"] {
+	display: none;
+}
+
+#tabela_produtos_add div[data-tipo="1"],
+#tabela_produtos_add div[data-tipo="2"],
+#lista_info div[data-tipo-fator="3"],
+#lista_info div[data-taxa="3"] {
+	display: none;
+}
+
+#lista_preco_resumo h2 {
+	margin: 24px 0px 4px;
+	font-family: "Gilroy-Regular";
+	font-size: 15px;
+	color: #01D67C;
+}
+
+#lista_info > div:not(:first-of-type) {
+	border-left: 1px solid #CCC;
+}
+
+#lista_info h3 {
+	font-family: "Gilroy-Bold";
+	display: block;
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 8px;
+	margin-top: 0px;
+}
+
+#lista_info strong {
+	font-family: "Gilroy-Regular";
+	display: block;
+	color: #666;
+	font-size: 13px;
+}
+
+#lista_info {
+	margin-top: 24px;
+}
+
+#lista_preco_resumo .detalhes .middle-text {
+	font-family: "Gilroy-Regular";
+	font-size: 12px;
+	color: #777;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px 16px 0px;
+}
+
+#form_relacao .title,
+#lista_preco_resumo .title {
+	font-family: 'Gilroy-Bold';
+	display: block;
+	color: #666;
+	font-size: 16px;
+}
+
+#lista_preco_resumo.details .label-item-form {
+	font-weight: normal;
+	color: inherit;
+}
+
+#lista_preco_resumo .detalhes > .row {
+	margin-bottom: 24px;
+}
+
+#inserir_relacao,
+#inserir_produto,
+#excluir_produtos,
+#btn_reajuste_preco {
+	text-transform: none;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#nome_lista_header {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#inserir_relacao {
+	max-width: 300px;
+}
+
+#excluir_produtos:disabled {
+	cursor: not-allowed !important;
+}
+
+#reajuste_precos {
+	width: 90%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+#tabela_lista_produtos[data-tipo="3"] .hide-customizavel {
+	display: none;
+}
+
+#btn_pesquisa_produto_lista.new-search-action span {
+	margin-left: 0;
+}
+#btn_pesquisa_produto_lista.new-search-action {
+	height: 32px;
+}
+
+#btn_pesquisa_produto_lista {
+	margin-top: 4px;
+	margin-left: -7px;
+}
+
+#tabela_lista_relacao .fa-trash-alt {
+	padding: 0;
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	-webkit-appearance: none;
+	color: #CB3C3C;
+	float: right;
+}
+
+#info_criacao {
+	font-size: 9pt;
+	color: #989898;
+}
+
+#divSeletorTipoFator {
+	padding: 0 !important;
+}
+
+#divSeletorTipoFator button {
+	height: 26px;
+}
+
+.containerBtnFator {
+	padding: 2px;
+}
+
+@media screen and (max-width: 400px) {
+	.tab-control a {
+		padding: 0px 5px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	#reajuste_precos {
+		margin-bottom: 192px;
+	}
+
+	#edicao {
+		margin-bottom: 104px;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	#div_inserir_produto {
+		grid-column-start: 11;
+	}
+}
+
+@media screen and (max-width: 842px) {
+	#inserir_produto,
+	#btn_reajuste_preco,
+	#excluir_produtos {
+		height: 32px;
+	}
+
+	#divSeletorTipoFator {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#container {
+		min-width: 336px !important;
+	}
+
+	#lista_info > div:not(:first-of-type) {
+		border-left: none;
+	}
+}
+
+@media screen and (max-width: 1066px) {
+	#inserir_produto,
+	#btn_reajuste_preco,
+	#excluir_produtos {
+		height: 38px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	#divSeletorTipoFator {
+		width: 200px;
+	}
+}

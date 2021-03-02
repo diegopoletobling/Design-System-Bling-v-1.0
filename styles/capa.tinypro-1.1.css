@@ -1,0 +1,1700 @@
+*{
+	margin:0;
+	padding:0;
+	color:#333333;
+	font-size:12px;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+html{
+	height:100%;
+	background:url(images/bgHtml.jpg) repeat;
+	font-size:12px;
+}
+body{
+	height:100%;
+	position: relative;
+	/*padding-bottom:270px;*/
+	background:url(images/bgInternas.jpg) repeat-x left top;
+}
+body.home{
+	height:100%;
+	position: relative;
+	background:url(images/bgHome.jpg) repeat-x left top;
+}
+#geral{
+	width:100%;
+	display:block;
+	min-height:100%;
+	position:relative;
+}
+
+p{
+	color:#333333;
+	font-size:12px;
+	line-height:16px;
+}
+a{
+	color:#265F99;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a, a:active, a:focus{
+	outline:none;
+	-moz-outline:none;
+	ie-dummy:expression(this.hideFocus=true);
+}
+img{
+	border:0 none;
+}
+b, strong{
+	color:#CACACA;
+	font-weight:bold;
+}
+ul, ol{
+	list-style:none;
+}
+ul:after,
+ol:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+input, textarea, select{
+	outline:none;
+}
+input.corFoco, textarea.corFoco, select.corFoco{
+	border:1px solid #567B98 !important;
+}
+h2{
+	color:#FFF;
+	font-size:1.4em;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+}
+h3{
+	color:#204668;
+	font-size:1.3em;
+}
+h4{
+	color:#333;
+	font-size:1.3em;
+}
+h5{
+	color:#333;
+	font-size:1em;
+}
+#slot_plano{
+	color:#ffffff;
+}
+#compartilhaFacebook{
+	width:1px;
+	height:1px;
+	display:none;
+	visibility:hidden;
+}
+
+#diverro {
+	/*width: 960px;
+	text-align: right;
+	margin: -5px auto;
+	background-image: url("../capa/tinypro/imagens/pop01.png");
+	width: 202px;
+	height: 20px;
+	text-align: center;*/
+	display: none;
+	
+}
+/************TOPO*************/
+
+#menu-container{
+	width:100%;	
+}
+#menu-container:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#menu-container #menu-content{
+	width:916px;
+	height:72px;
+	margin:0 auto;
+}
+
+#menu-container #menu-content h1{
+	float:left;
+	width:117px;
+	height:33px;
+	margin-top:22px;
+}
+#menu-container #menu-content h1 a{
+	color:#FFF;
+	width:117px;
+	height:30px;
+	display:block;
+	text-indent:-30000px;
+	background:url(images/logoOrganyx.png) no-repeat;
+}
+#menu-container #menu-content ul{
+	z-index:3;
+	width:491px;
+	float:right;
+	margin-top:22px;
+	position:relative;
+}
+#menu-container #menu-content ul li{
+	float:left;
+	height:25px;
+	margin-left:2px;
+	text-indent:-30000px;
+}
+#menu-container #menu-content ul li a{
+	height:25px;
+	display:block;
+	color:#79A5C5;
+	line-height:25px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#menu-container #menu-content ul li#menuHome a{
+	width:65px;
+	background:url(images/menuHome.png) no-repeat left top;
+}
+#menu-container #menu-content ul li#menuTour a{
+	width:64px;
+	background:url(images/menuTour.png) no-repeat left top;
+}
+#menu-container #menu-content ul li#menuPlanos a{
+	width:142px;
+	background:url(images/menuPlanos.png) no-repeat left top;
+}
+#menu-container #menu-content ul li#menuConta a{
+	width:119px;
+	background:url(images/menuConta.png) no-repeat left top;
+}
+#menu-container #menu-content ul li#menuContato a{
+	width:90px;
+	background:url(images/menuContato.png) no-repeat left top;
+}
+#menu-container #menu-content ul li#menuHome a:hover{
+	color:#FFF;
+	background-position:left bottom;
+}
+#menu-container #menu-content ul li#menuTour a:hover{
+	color:#FFF;
+	background-position:left bottom;
+}
+#menu-container #menu-content ul li#menuPlanos a:hover{
+	color:#FFF;
+	background-position:left bottom;
+}
+#menu-container #menu-content ul li#menuConta a:hover{
+	color:#FFF;
+	background-position:left bottom;
+}
+#menu-container #menu-content ul li#menuContato a:hover{
+	color:#FFF;
+	background-position:left bottom;
+}
+
+#menu-container #menu-content ul li.pgNow a{
+	color:#FFF;
+	background-position:left bottom;
+}
+
+#marcaPaginas{
+	width:916px;
+	height:74px;
+	margin:0 auto;
+}
+
+#marcaPaginas #introducao{
+	float:left;
+	width:700px;
+	margin-top:25px;
+}
+
+#marcaPaginas #introducao h2{
+	float:left;
+}
+#marcaPaginas #introducao p{
+	float:left;
+	color:#79A5C5;
+	font-weight:bold;
+	margin:4px 0 0 30px;
+	text-shadow:1px 1px 1px #1F3142;
+}
+#marcaPaginas p.btConta,
+#marcaPaginas p.btContato{
+	width:142px;
+	height:38px;
+	float:right;
+	margin-top:17px;
+	text-indent:-30000px;
+}
+#marcaPaginas p.btConta a,
+#marcaPaginas p.btContato a{
+	color:#FFF;
+	width:142px;
+	height:38px;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	background:url(images/btConta.jpg) no-repeat left top;
+}
+#marcaPaginas p.btConta a{
+	background:url(images/btConta.jpg) no-repeat left top;
+}
+#marcaPaginas p.btContato a{
+	background:url(images/btContato.jpg) no-repeat left top;
+}
+#marcaPaginas p.btConta a:hover,
+#marcaPaginas p.btContato a:hover{
+	background-position:left bottom;
+}
+
+/*cadeado*/
+
+#menu-container #iconLogin{
+	top:0;
+	right:0;
+	width:83px;
+	position:absolute;
+	background:#000000;
+}
+#menu-container #iconLogin p.cadeado{
+	width:47px;
+	height:42px;
+	position:absolute;
+	right:0;
+	z-index:2;
+	text-indent:-30000px;
+}
+#menu-container #iconLogin p.cadeado a{
+	width:47px;
+	height:42px;
+	display:block;
+	background:url(images/btLoginCanto.png) no-repeat left top;
+}
+#menu-container #iconLogin p.cadeado a:hover{
+	background-position:left bottom;
+}
+#menu-container #iconLogin p.login{
+	width:68px;
+	height:45px;
+	z-index:1;
+	margin-right:15px;
+	margin-top:43px;
+	position:absolute;
+	text-indent:-30000px;
+	background:url(images/setaLoginCanto.png) no-repeat left top;
+}
+
+/************HOME*************/
+
+#home{
+	width:100%;
+	margin:0 auto;
+	padding-bottom:270px;
+}
+#home:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#home #central{
+	width:948px;
+	margin:0 auto;
+	position:relative;
+}
+#home #central:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#home #central p.btConta{
+	top:26px;
+	right:16px;
+	width:142px;
+	height:38px;
+	z-index:2;
+	position:absolute;
+}
+#home #central p.btConta a{
+	color:#FFF;
+	width:142px;
+	height:38px;
+	display:block;
+	text-indent:-30000px;
+	background:url(images/btConta.jpg) no-repeat left top;
+}
+#home #central p.btConta a:hover{
+	background-position:left bottom;
+}
+#home #central p.banner30Dias{
+	left:16px;
+	top:104px;
+	width:165px;
+	height:83px;
+	color:#BAD0DC;
+	z-index:2;
+	position:absolute;
+	text-indent:-30000px;
+}
+#home #central p.banner30Dias a{
+	width:165px;
+	height:83px;
+	display:block;
+	background:url(images/banner30Dias.jpg) no-repeat left top;
+}
+#home #central p.banner30Dias a:hover{
+	background-position:left bottom;
+}
+#home #central ul#slideshow{
+	width:948px;
+	height:550px;
+	z-index:1;
+	background:#006666;
+	background:url(images/bgSlideshow.jpg) no-repeat left top;
+	background-position:0 83px;
+}
+#home #central ul#slideshow h2{
+	float:left;
+	width:182px;
+	height:55px;
+	line-height:25px;
+	font-size:1.7em;
+	font-weight:normal;
+	margin:20px 0 0 16px;
+}
+#home #central ul#slideshow h2 a{
+	font-size:1em;
+	color:#fff;
+}
+#home #central ul#slideshow h2 a:hover{
+	text-decoration:none;
+	color:#ddd;
+}
+#home #central ul#slideshow h2 span{ 
+	color:#FFF;
+	font-size:1.2em;
+	line-height:30px;
+	font-weight:bold;
+}
+#home #central ul#slideshow h2 span a{ 
+	color:#fff;
+}
+#home #central ul#slideshow h2 span:hover{
+	text-decoration:none;
+	color:#ddd;
+}
+#home #central ul#slideshow p{
+	float:left;
+	width:514px;
+	color:#79A5C5;
+	font-weight:bold;
+	margin:30px 0 0 10px;
+	text-shadow:1px 1px 1px #1F3142;
+}
+#home #central ul#slideshow img{
+	clear:both;
+	padding-top:8px;
+}
+#home a#setaEsquerda,
+#home a#setaDireita{
+	top:295px;
+	z-index:2;
+	width:47px;
+	height:50px;
+	position:absolute;
+	text-indent:-30000px;
+}
+#home a#setaEsquerda{
+	left:0;
+	background:url(images/setaLeft.png) no-repeat left top;
+}
+#home a#setaDireita{
+	right:0;
+	background:url(images/setaRight.png) no-repeat left top;
+}
+#home a#setaEsquerda:hover,
+#home a#setaDireita:hover{
+	background-position:left bottom;
+}
+
+/************LOGIN*************/
+
+
+
+#login{
+	width:620px;
+	margin:0 auto;
+	margin-top:55px;
+	padding-bottom:320px;
+}
+#login:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#login #esquerda{
+	float:left;
+	width:272px;
+	height:200px;
+	padding-right:65px;
+	border-right:1px solid #CCC;
+}
+#login #esquerda h3{
+	width:273px;
+	height:77px;
+	margin-top:35px;
+	text-indent:-30000px;
+	background:url(images/logoOrganixLogin.png) no-repeat;
+}
+#login #esquerda p{
+	text-align:center;
+}
+#login #direita{
+	float:right;
+	width:210px;
+	height:200px;
+	margin-top:5px;
+	padding-left:65px;
+}
+#login #direita  label{
+	color:#333;
+}
+#login #direita  input{
+	color:#333;
+	width:180px;
+	height:20px;
+	line-height:20px;
+	padding:5px 10px;
+	margin:4px 0 12px 0;
+	border:1px solid #CCC;
+}
+#login #direita #aviso{
+	width:440px;
+	margin-top:6px;
+}
+#login #direita #aviso:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#login #direita #aviso p{
+	height:20px;
+	margin-top:0;
+	display:block;
+	line-height:18px;
+	text-indent:25px;
+}
+#login #direita #aviso.erro{
+	background:url(images/avisoErro.jpg) no-repeat left center !important;
+}
+#login #direita #aviso.erro p{
+	color:#BC2500 !important;
+}
+#login #direita #aviso.sucesso{
+	background:url(images/avisoSucesso.jpg) no-repeat left center !important;
+}
+#login #direita #aviso.sucesso p{
+	color:#608D1E !important;
+}
+#login #direita input.btEntrar{
+	width:142px;
+	height:38px;
+	border:0 none;
+	cursor:pointer;
+	margin-top:10px;
+	background:url(images/btEntrar.jpg) no-repeat left top;
+}
+#login #direita input.btEntrar:hover{
+	background-position:left bottom;
+}
+#login #direita p{
+	margin-top:-8px;
+}
+#login #direita p a{
+	color:#27609A;
+	font-size:0.8em;
+}
+
+/************RECUPERACAO-DE-SENHA*************/
+
+#senha{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#senha:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#senha h3{
+	width:650px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+#senha {
+	margin-top:14px;
+}
+#senha  table tr td.padding{
+	padding-left:20px;
+}
+#senha  table tr td input{
+	margin-right:2px;
+}
+#senha  .bloco{
+	margin-top:15px;
+}
+#senha  .bloco label{
+	color:#333;
+	display:block;
+}
+#senha  .bloco input{
+	color:#333;
+	width:200px;
+	height:28px;
+	line-height:28px;
+	padding:0 8px;
+	margin-top:6px;
+	border:1px solid #CCC;
+}
+#senha #aviso{
+	width:650px;
+	margin-top:6px;
+}
+#senha #aviso:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#senha #aviso p{
+	height:20px;
+	margin-top:0;
+	display:block;
+	line-height:18px;
+	text-indent:25px;
+}
+#senha #aviso.erro{
+	background:url(images/avisoErro.jpg) no-repeat left center !important;
+}
+#senha #aviso.erro p{
+	color:#BC2500 !important;
+}
+#senha #aviso.sucesso{
+	background:url(images/avisoSucesso.jpg) no-repeat left center !important;
+}
+#senha #aviso.sucesso p{
+	color:#608D1E !important;
+}
+#senha  input.btEnviar{
+	width:142px;
+	height:38px;
+	border:0 none;
+	cursor:pointer;
+	margin-top:25px;
+	background:url(images/btEnviar.jpg) no-repeat left top;
+}
+#senha  input.btEnviar:hover{
+	background-position:left bottom;
+}
+
+/************TOUR*************/
+
+#tour{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#tour:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#tour #esquerda{
+	width:193px;
+	float:left;
+	margin-top:29px;
+}
+#tour #esquerda ul li{
+	width:193px;
+	height:38px;
+	margin-top:4px;
+	text-indent:-30000px;
+}
+#tour #esquerda ul li a{
+	color:#FFF;
+	width:193px;
+	height:38px;
+	display:block;
+	text-decoration:none;
+}
+#tour #esquerda ul li.btProjetos a{
+	background:url(images/bt-tour-projetos.jpg) no-repeat left top;
+}
+#tour #esquerda ul li.btVendas a{
+	background:url(images/bt-tour-vendas.jpg) no-repeat left top;
+}
+#tour #esquerda ul li.btAgenda a{
+	background:url(images/bt-tour-agenda.jpg) no-repeat left top;
+}
+#tour #esquerda ul li.btFinancas a{
+	background:url(images/bt-tour-financas.jpg) no-repeat left top;
+}
+#tour #esquerda ul li.btNotas a{
+	background:url(images/bt-tour-notas.jpg) no-repeat left top;
+}
+#tour #esquerda ul li.btRecursos a{
+	background:url(images/bt-tour-recursos.jpg) no-repeat left top;
+}
+#tour #esquerda ul li a:hover{
+	background-position:right top;
+}
+#tour #esquerda ul li a.selected{
+	background-position:right top;
+}
+#tour #direita{
+	width:692px;
+	float:right;
+}
+#tour #direita h3{
+	width:692px;
+	margin-top:5px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+
+#tour #direita p{
+	margin:10px 0 5px 0;
+	font-size:1.2em;
+	color:#244A63;
+	line-height:20px;
+}
+#tour #direita #bloco{
+	display:table;	
+	width:692px;
+}
+#tour #direita #bloco a{
+	margin:10px 20px 10px 0;
+	width:391px;
+	float:left;
+}
+#tour #direita #bloco p{
+	width:265px;
+	float:left;
+}
+#tour #direita #bloco p b{
+	font-size:1.1em;
+	color:#244A63;
+	line-height:20px;
+}
+#tour #direita #bloco.invert a{
+	margin:10px 0 10px 20px;
+	width:391px;
+	float:right;
+}
+#tour #direita #bloco.invert p{
+	width:245px;
+	float:right;
+	text-align:right;
+}
+
+#tour #direita .btCriarConta{
+	width:692px;
+	height:47px;
+	display:block;
+	background:url(images/btCrieConta30Dias.jpg);
+	text-indent:-30000px;
+	margin-top:15px;
+}
+
+#tour #direita .imgCriarConta{
+	width:692px;
+	height:47px;
+	display:block;
+	overflow: hidden;
+}
+
+#tour #direita .imgCriarConta:hover{
+	opacity:0.80;
+	-moz-opacity: 0.80;
+	filter: alpha(opacity=80);
+}
+
+
+#tour #direita .btCriarConta:hover{
+	background-position:left bottom;
+}
+#tour #direita p b{
+	color:#333333;
+}
+#tour #direita ul{
+	padding:10px 0 3px 5px;
+}
+#tour #direita ul li{
+	background:url(images/listStileTypeTour.jpg) no-repeat left top;
+	text-indent:12px;
+}
+#tour #direita span{
+	color:#999;
+	font-size:0.8em;
+}
+
+/************* CRIAR CONTA **************/
+#mensagem{
+	margin-top: 20px;
+}
+
+#conta{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#conta:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#conta h3{
+	width:650px;
+	margin-bottom:13px;
+}
+#conta #esquerda{
+	float:left;
+	width:440px;
+}
+#conta #esquerda h3{
+	width:440px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+#conta #esquerda p.obs{
+	color:#999;
+	margin-top:10px;
+	font-size:0.8em;
+	clear:both;
+}
+#conta form{
+	margin-top:20px;
+}
+#conta form label{
+	color:#333;
+	display:block;
+}
+#conta p.caption{
+	color:#333;
+	display:block;
+}
+#conta form label span{
+	color:#999;
+	font-size:0.8em;
+}
+#conta form .info{
+	color:#999;
+	font-size:0.8em;
+}
+#conta #esquerda table.tabela01{
+	margin-bottom:10px;
+}
+#conta #esquerda table.tabela01 tr td #selecaoPlano{
+	width:134px;
+	height:28px;
+	padding:5px;
+}
+#conta #esquerda table.tabela01 tr td #selecaoSobre{
+	width:134px;
+	height:28px;
+	padding:5px;
+}
+#conta #esquerda table.tabela02{
+	margin-bottom:15px;
+}
+#conta #esquerda table.tabela02 tr td.padding{
+	padding-left:20px;
+}
+#conta #esquerda table.tabela02 tr td input{
+	margin-right:2px;
+}
+#conta #esquerda #formCriarConta div{
+	height:60px;
+	float:left;
+	margin-right:10px;
+}
+#conta #esquerda input{
+	color:#333;
+	height:28px;
+	line-height:28px;
+	padding:0 8px;
+	margin-top:6px;
+	border:1px solid #CCC;
+}
+
+#conta #direita input{
+	color:#333;
+	height:28px;
+	line-height:28px;
+	padding:0 8px;
+	margin-top:6px;
+	border:1px solid #CCC;
+	width: 200px;
+}
+#conta #esquerda  .campoGG{
+	width:410px;
+}
+#conta #esquerda  .campoGG input.gg{
+	width:394px;
+}
+#conta #esquerda  .campoGD{
+	width:305px;
+}
+#conta #esquerda  .campoGD input.gd{
+	width:289px;
+}
+#conta #esquerda  .campoMD{
+	width:200px;
+}
+#conta #esquerda  .campoMD input.md{
+	width:184px;
+}
+#conta #esquerda  .campoPQ{
+	width:95px;
+}
+#conta #esquerda select{
+	width:95px;
+	margin-top:7px;
+	height:30px;
+}
+#conta #esquerda  .campoPQ input.pq{
+	width:79px;
+}
+#conta #esquerda #juridica{
+	display:table;
+}
+#conta #direita{
+	float:right;
+	width:440px;
+}
+#conta #direita h3{
+	width:440px;
+	padding-bottom:8px;
+	border-bottom:1px solid #CCC;
+	margin-bottom:13px;
+}
+#conta #direita label{
+	color:#333;
+	display:block;
+}
+#conta #direita label span{
+	color:#999;
+	font-size:0.8em;
+}
+#conta #direita table.tabela03 label{
+	margin-bottom:5px;
+}
+#conta #direita table.tabela03 input{
+	color:#333;
+	width:186px;
+	height:28px;
+	padding:0 8px;
+	line-height:28px;
+	margin:0 6px 6px 0;
+	border:1px solid #CCC;
+}
+#conta #direita table.tabela03 input#usuario{
+	float:left;
+}
+#conta #direita table.tabela03 p.btDisponibilidade{
+	float:right;
+	margin:6px 74px 0 0;
+}
+#conta #direita table.tabela03 p.erroDisponibilidade{
+	color:#F00;
+	font-size:0.8em;
+	margin-top:-2px;
+	margin-bottom:8px;
+}
+#conta #direita h3.hTermos{
+	margin-top:30px;
+}
+#conta #direita table.tabela04 td label{
+	margin-left:4px;
+}
+#conta #direita table.tabela04 td input{
+	width:auto;
+	margin:0;
+	padding:0;
+}
+#conta #direita #aviso{
+	width:400px;
+	margin-top:10px;
+	padding:10px 14px 14px 10px;
+	border:1px solid #BC2500;
+}
+#conta #direita #aviso:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#conta #direita #aviso p{
+	margin-top:0;
+	display:block;
+	line-height:18px;
+	padding-left:34px;
+	text-indent:-8px;
+}
+#conta .tip-message-red{
+	font-size:10px;
+	color:#ff0000;
+}
+
+#conta .warning ul li{
+	background:url(images/avisoErro.jpg) no-repeat !important;
+	background-position:0px 0px !important;
+	padding-left:20px;
+	font-size:13px;
+	color:#ff0000;
+	margin-top:10px;
+}
+
+#conta #esquerda input.warning{
+	border:1px solid #ff0000;
+	background-color:#FFFFE0;
+}
+#conta #direita input.warning{
+	border:1px solid #ff0000;
+	background-color:#FFFFE0;
+}
+#conta #direita #aviso.erro{
+	background:url(images/avisoErro.jpg) no-repeat !important;
+	background-position:10px 14px !important;
+}
+#conta #direita #aviso.erro p{
+	color:#BC2500 !important;
+}
+#conta #direita #aviso.erro p b{
+	color:#BC2500 !important;
+}
+#conta #direita #aviso.sucesso{
+	background:url(images/avisoSucesso.jpg) no-repeat left center !important;
+}
+#conta #direita #aviso.sucesso p{
+	color:#608D1E !important;
+}
+#conta #direita input.enviar{
+	width:142px;
+	height:38px;
+	border:0 none;
+	cursor:pointer;
+	margin-top:18px;
+	background:url(images/btEnviar.jpg) no-repeat left top;
+}
+#conta #direita input.enviar:hover{
+	background-position:left bottom;
+}
+#trintaDias{
+	width:916px;
+	display:block;
+	float:left;
+	margin-top:25px;
+	padding-top:15px;
+	border-top:1px solid #cccccc;
+}
+
+.ui-autocomplete{
+	width:200px;
+	background-color: #eee;
+	border: 1px solid #333333;
+}
+
+.ui-autocomplete a:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+
+/************** RECUPERAR SENHA ************/
+
+#recuperarSenha input.button-default{
+	width:142px;
+	height:38px;
+	border:0 none;
+	cursor:pointer;
+	margin-top:18px;
+	background:url(images/btEnviar.jpg) no-repeat left top;
+	text-indent:-3000px;
+}
+#recuperarSenha input.button-default:hover{
+	background-position:left bottom;
+}
+
+#recuperarSenha input#cnpj, #recuperarSenha input#email{
+	color:#333;
+	height:28px;
+	line-height:28px;
+	padding:0 8px;
+	margin-top:6px;
+	border:1px solid #CCC;
+	width: 200px;
+}
+
+#recuperarSenha input#cnpj.warning, #recuperarSenha input#email.warning{
+	border:1px solid #ff0000;
+	background-color:#FFFFE0;
+}
+
+#recuperarSenha #cnpj-message{
+	color:#BC2500 !important;
+	font-size:10px;
+}
+
+#recuperarSenha select{
+	height:30px;
+}
+
+
+/************** POLITICAS, TERMOS E PERGUNTAS FREQUENTES ************/
+
+#politicas{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#politicas:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#politicas #esquerda{
+	float:left;
+	width:634px;
+}
+#politicas #esquerda h3{
+	width:634px;
+	padding-bottom:8px;
+	border-bottom:1px solid #CCC;
+	margin-bottom:13px;
+}
+#politicas #esquerda h5{
+	margin-top:20px;
+}
+#politicas #esquerda p{
+	margin-top:8px;
+	line-height:18px;
+}
+#politicas #esquerda p.codigo02{
+	margin-left:10px;
+}
+#politicas #esquerda p.codigo03{
+	margin-left:20px;
+}
+#politicas #direita{
+	float:right;
+	width:246px;
+}
+#politicas #direita h3{
+	width:246px;
+	padding-bottom:8px;
+	border-bottom:1px solid #CCC;
+	margin-bottom:13px;
+}
+#politicas #direita ul{
+	margin-top:10px;
+}
+#politicas #direita ul li{
+	margin-bottom:10px;
+}
+#politicas #direita ul li a{
+	font-weight:bold;
+}
+#politicas #direita ul li a.selected{
+	text-decoration:underline;
+}
+
+
+/************CONTATO*************/
+
+#error-messages{
+	width: 916px;
+	margin: 0 auto;
+	padding-top:30px;
+	color:#ff0000;
+	font-size:16px;
+	font-weight:bold;
+	height:auto !important;
+}
+
+#contato{
+	width:916px;
+	margin:0 auto;
+	padding-bottom:320px;
+}
+#contato:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#contato p.info{
+	height:27px;
+	line-height:27px;
+	text-indent:32px;
+	background:url(images/iconContato.jpg) no-repeat center left;
+}
+#contato #esquerda{
+	float:left;
+	width:440px;
+}
+#contato #esquerda h3{
+	width:440px;
+	padding-bottom:8px;
+	border-bottom:1px solid #CCC;
+	margin-bottom:13px;
+}
+#contato #esquerda form label{
+	color:#333;
+	display:block;
+}
+#contato #esquerda form input{
+	color:#333;
+	width:410px;
+	height:28px;
+	padding:0 8px;
+	line-height:28px;
+	margin:6px 6px 6px 0;
+	border:1px solid #CCC;
+}
+#contato #esquerda form textarea{
+	color:#333;
+	width:418px;
+	height:160px;
+	min-width:418px;
+	max-width:418px;
+	line-height:28px;
+	padding:0 0 0 8px;
+	margin:6px 6px 6px 0;
+	border:1px solid #CCC;
+}
+#contato #esquerda form #aviso{
+	width:260px;
+	float:left;
+	margin-top:19px;
+}
+#contato #esquerda form #aviso:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#contato #esquerda form #aviso p{
+	height:17px;
+	margin-top:0;
+	display:block;
+	text-indent:25px;
+	line-height:17px;
+}
+#contato #esquerda form #aviso.erro{
+	background:url(images/avisoErro.jpg) no-repeat left center !important;
+}
+#contato #esquerda form #aviso.erro p{
+	color:#BC2500 !important;
+}
+#contato #esquerda form #aviso.sucesso{
+	background:url(images/avisoSucesso.jpg) no-repeat left center !important;
+}
+#contato #esquerda form #aviso.sucesso p{
+	color:#608D1E !important;
+}
+#contato #esquerda form input.btEnviar{
+	width:142px;
+	height:38px;
+	float:right;
+	border:0 none;
+	cursor:pointer;
+	margin:8px 12px 0 0;
+	background:url(images/btEnviar.jpg) no-repeat left top;
+}
+#contato #esquerda form input.btEnviar:hover{
+	background-position:left bottom;
+}
+#contato #direita{
+	float:right;
+	width:440px;
+}
+#contato #direita h3{
+	width:440px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+#contato #direita h4,
+#contato #direita h5,
+#contato #direita p{
+	margin-top:8px;
+}
+#contato #direita iframe{
+	margin-top:10px;
+	border:1px solid #CCC;
+}
+#contato #direita p.btMapa{
+	margin-top:6px;
+}
+#contato #direita p.btMapa a{
+	color:#265F99;
+	font-size:0.8em;
+}
+
+#contato .tip-message-red{
+	color:#ff0000;
+	font-size:10px;
+	margin-bottom:10px;
+}
+
+#error-messages.sucesso p{
+	color:green;
+	font-size:24px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+/****************** ERRO 404 ****************/
+
+#erro{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#erro:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#erro h3{
+	width:650px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+#erro img{
+	float:left;
+	width:52px;
+	height:51px;
+	margin:10px 0 0 8px;
+}
+#erro .bloco{
+	width:840px;
+	float:right;
+}
+#erro .bloco p{
+	width:480px;
+	margin-top:8px;
+}
+#erro .bloco ol{
+	width:480px;
+	margin-top:8px;
+}
+
+/************** ATUALIZE SEU NAVEGADOR ***************/
+
+#navegadores{
+	width:916px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#navegadores:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#navegadores h3{
+	width:650px;
+	padding-bottom:8px;
+	margin-bottom:13px;
+	border-bottom:1px solid #CCC;
+}
+#navegadores img.ie6{
+	float:left;
+	width:54px;
+	height:59px;
+	margin:10px 0 0 8px;
+}
+#navegadores .bloco{
+	width:840px;
+	float:right;
+}
+#navegadores .bloco p{
+	width:480px;
+	margin-top:8px;
+}
+#navegadores .bloco h5{
+	margin-top:15px;
+}
+#navegadores .bloco p a{
+	color:#265F99;
+}
+#navegadores .bloco ol{
+	margin-top:10px;
+}
+#navegadores .bloco ol li{
+	height:30px;
+	line-height:30px;
+	text-indent:30px;
+	margin-right:25px;
+}
+#navegadores .bloco ol li.firefox{
+	background:url(images/ie6/firefox.png) no-repeat left center;
+}
+#navegadores .bloco ol li.chrome{
+	background:url(images/ie6/chrome.png) no-repeat left center;
+}
+#navegadores .bloco ol li.ie9{
+	background:url(images/ie6/ie9.png) no-repeat left center;
+}
+#navegadores .bloco ol li.opera{
+	background:url(images/ie6/opera.png) no-repeat left center;
+}
+#navegadores .bloco ol li a{
+	color:#265F99;
+}
+
+/************PLANOS E PRE�OS*************/
+
+#planos{
+	width:916px;
+	height:690px;
+	margin:0 auto;
+	margin-top:35px;
+	padding-bottom:320px;
+}
+#planos:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#planos h3{
+	width:650px;
+	margin-bottom:13px;
+}
+
+/************RODAPE*************/
+
+#rodape{
+	width:100%;
+	height:270px;
+	position:absolute;
+	bottom:0;
+	background:url(images/bgRodape.jpg) repeat-x center bottom;
+	
+}
+
+#rodape #banners{
+	width:944px;
+	height:125px;
+	margin:0 auto;
+}
+#rodape #banners:after{
+	height:0;
+	clear:both;
+	content:".";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+}
+#rodape #banners #bannerContato h3,
+#rodape #banners #bannerContato p{
+	margin-left:110px;
+}
+#rodape #banners #bannerContato a{
+	background:url(images/bannerContato.jpg) no-repeat;
+}
+#rodape #banners #bannerFuncionamento h3,
+#rodape #banners #bannerFuncionamento p{
+	margin-left:110px;
+}
+#rodape #banners #bannerFuncionamento a{
+	background:url(images/bannerFuncionamento.jpg) no-repeat;
+}
+#rodape #banners #bannerPlanos h3,
+#rodape #banners #bannerPlanos p{
+	margin-left:120px;
+}
+#rodape #banners #bannerPlanos a{
+	background:url(images/bannerPlanos.jpg) no-repeat;
+}
+#rodape #banners #bannerConta h3,
+#rodape #banners #bannerConta p{
+	margin-left:115px;
+}
+#rodape #banners #bannerConta a{
+	background:url(images/bannerConta.jpg) no-repeat;
+}
+#rodape #banners div p{
+	color:#666A73;
+}
+#rodape #banners .banner{
+	float:left;
+	width:304px;
+	height:125px;
+	margin:0 5px;
+}
+#rodape #banners .banner a{
+	width:304px;
+	height:125px;
+	display:block;
+}
+#rodape #banners .banner a:hover{
+	text-decoration:none;
+}
+#rodape #banners .banner h3{
+	padding-top:25px;
+}
+#rodape #banners .banner p{
+	width:140px;
+	margin-top:5px;
+}
+#rodape #banners .banner a:hover p{
+	text-decoration:underline;
+}
+#rodape #rodapeInterno{
+	width:920px;
+	height:110px;
+	margin:35px auto 0 auto;
+}
+#rodape #rodapeInterno #duvidas{
+	float:left;
+	width:230px;
+	height:50px;
+	margin-top:29px;
+	padding-right:30px;
+	border-right:1px solid #567B98;
+}
+#rodape #rodapeInterno #duvidas p{
+	margin-top:6px;
+	line-height:16px;
+	background:url(images/setaAzul.jpg) no-repeat center left;
+}
+#rodape #rodapeInterno #duvidas p a{
+	color:#79A5C5;
+	padding-left:10px;
+}
+#rodape #rodapeInterno #politicas{
+	float:left;
+	width:310px;
+	height:50px;
+	padding:0 30px;
+	margin-top:29px;
+	border-right:1px solid #567B98;
+}
+#rodape #rodapeInterno #politicas ul{
+	margin-top:8px;
+}
+#rodape #rodapeInterno #politicas ul li{
+	float:left;
+	margin-right:30px;
+}
+#rodape #rodapeInterno #politicas ul li.ultimo{
+	margin-right:0px;
+}
+#rodape #rodapeInterno #politicas ul li a{
+	color:#79A5C5;
+	padding-left:10px;
+	background:url(images/setaAzul.jpg) no-repeat center left;
+}
+#rodape #rodapeInterno #social{
+	width:260px;
+	float:right;
+	height:50px;
+	margin-top:29px;
+}
+#rodape #rodapeInterno #social p{
+	color:#79A5C5;
+	margin-top:5px;
+}
+#rodape #rodapeInterno #social ul{
+	margin-top:6px;
+}
+#rodape #rodapeInterno #social ul li{
+	float:left;
+	margin-right:5px;
+}
+#rodape #rodapeInterno #social ul li.btFacebook a,
+#rodape #rodapeInterno #social ul li.btTwitter a{
+	color:#FFF;
+	height:20px;
+	display:block;
+	font-size:0.9em;
+	text-indent:-30000px;
+}
+#rodape #rodapeInterno #social ul li.btFacebook a{
+	width:80px;
+	background:url(images/btFacebook.jpg) no-repeat left top;
+}
+#rodape #rodapeInterno #social ul li.btTwitter a{
+	width:66px;
+	background:url(images/btTwitter.jpg) no-repeat left top;
+}
+#rodape #rodapeInterno #social ul li.btFacebook a:hover,
+#rodape #rodapeInterno #social ul li.btTwitter a:hover{
+	background-position:left bottom;
+}
+#rodape p.logoTag{
+	float: right;
+	right:30px;
+	bottom:51px;
+	position:absolute;
+	text-indent:-30000px;
+}
+#rodape p.logoTag a{
+	width:41px;
+	height:15px;
+	display:block;
+	background:url(images/logoTag.jpg) no-repeat left top;
+}
+#rodape p.logoTag a:hover{
+	background-position:left bottom;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+/* TELA DE CONTATO */
+#contato .sucess{
+	font-size:10pt;
+	color:#222;
+	border-top:1px solid #91bf2f;
+	border-bottom:1px solid #91bf2f;
+	background:#deeac5 url(images/info_icon.png) no-repeat 15px 10px;
+	padding:15px 10px 15px 80px;
+	margin-top:15px;
+	height: 30px;
+	margin-bottom:10px;
+	width:350px;
+}
+
+#contato .sucess ul{
+	padding-left:12px;
+	}
+
+#contato .error{
+	font-size:10pt;
+	color:#222;
+	border-top:1px solid #FFA500;
+	border-bottom:1px solid #FFA500;
+	background:#FFFFE0 url(images/warning_orange.gif) no-repeat 15px 10px;
+	padding:15px 10px 15px 80px;
+	margin-top:15px;
+	height: 30px;
+	margin-bottom:10px;
+	width:350px;
+}
+
+#contato .error ul{
+	padding-left:12px;
+	}
+
+#contato #error-messages p{
+	padding:0;
+	margin:0;
+}
+
+#contato #error-messages h3{
+	padding:0;
+	margin:0;
+	width:auto;
+}
+
+
+/* TELA HOME */
+.esqueceu_senha{
+	position:absolute;
+	display:block;
+	margin-left:10px;
+	margin-top:15px;
+	margin-bottom:0px;
+	background:none;
+	float:left;
+	padding:0;
+	left:129px;
+	top:161px;
+}
+.esqueceu_senha a{
+	font-size:10px;
+}
+
+.form{
+	position:relative;
+}

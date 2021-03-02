@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'gothamMedium';
+    src: url('font/gotham/gothamMedium.eot');
+    src: url('font/gotham/gothamMedium.eot?#iefix') format('embedded-opentype'),
+         url('font/gotham/gothamMedium.woff') format('woff'),
+         url('font/gotham/gothamMedium.otf') format('truetype'),
+         url('font/gotham/gothamMedium.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

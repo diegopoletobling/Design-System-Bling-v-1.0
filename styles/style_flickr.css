@@ -1,0 +1,29 @@
+.photo {background:#fff;border:1px solid #ccc; float:left; padding:5px; margin:5px;font-family:Sans-serif;font-size:8pt;height:110px;width:100px;text-align:center;}
+.zoom {padding:5px;width:500px;height:500px; text-align:center; vertical-align:middle;}
+.close{background-image: url(images/close.gif); height:17px; width:17px;}
+.close:hover{background-color: #fff;}
+#lista-container{background-color:#dedede; padding:10px;border:1px solid #ddd;margin:10px;float:left;}
+#zoom-ico{text-align:center; vertical-align:middle;}
+#zoom-photo{text-align:center; vertical-align:middle;}	
+.boxy-wrapper { position: absolute; }
+.boxy-wrapper.fixed { position: fixed; }
+.boxy-modal-blackout { position: absolute; left: 0; top: 0;background:#666; }
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .top-left,
+.boxy-wrapper .top-right,
+.boxy-wrapper .bottom-right,
+.boxy-wrapper .bottom-left { width: 2px; height: 2px; padding: 0 }
+.boxy-wrapper .top-left { height: 2px; background-color: black;}
+.boxy-wrapper .top-right { height: 2px; background-color: black;}
+.boxy-wrapper .bottom-right { height: 2px; background-color: black;}
+.boxy-wrapper .bottom-left { height: 2px; background-color: black;}
+.boxy-wrapper .top, .boxy-wrapper .bottom { height: 2px; background-color: black; padding: 0 }
+.boxy-wrapper .left, .boxy-wrapper .right { width: 2px; background-color: black; padding: 0 }
+.boxy-wrapper .title-bar { padding: 6px; position: relative; }
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { font-size: 14pt; color: black; margin: 0; padding:3px 0 0 10px; font-weight: bold; text-align:left;}
+.boxy-wrapper .title-bar .close { color: black; position: absolute; top: 6px; right: 6px; font-size: 90%; line-height: 1; }
+.boxy-inner { background-color: #fdfdfd; padding: 0 }
+.boxy-content { padding: 20px; }
+.boxy-wrapper .question { width: 350px; min-height: 80px; }
+.boxy-wrapper .answers { text-align: right; }

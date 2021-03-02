@@ -1,0 +1,473 @@
+#lista {
+    display: block;
+}
+
+.subtitle-list {
+    font: bold 16px arial;
+    color: #888888;
+}
+
+.subtitle-list b {
+    color: #3B3A3A;
+}
+
+#edicao #content {
+    background-color: rgb(242, 250, 248);
+}
+
+#edicao #content .app-container {
+    background-color: white;
+    box-shadow: 0px 2px 4px #00000029;
+    margin-bottom: 16px;
+    padding-top: 8px;
+}
+
+#aplicativo-warning {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#lista .section-lista-aplicativos {
+    margin-bottom: 25px;
+    padding: 30px;
+    min-height: 483px;
+}
+
+#lista_aplicativos {
+    margin-bottom: 10px;
+}
+
+#lista_aplicativos #container_aplicativos {
+    float: none;
+}
+
+.new-app {
+    margin-top: 10px;
+    height: 80px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px dashed #7CB2D5;
+    font: Bold 14px Arial;
+    color: #7CB2D5;
+}
+
+.new-app:hover {
+    cursor: pointer;
+    color: #29ABE2;
+    border-color: #29ABE2;
+}
+
+.new-app .fa-plus-circle {
+    margin-right: 8px;
+}
+
+.aplicativo-row {
+    height: 80px;
+}
+
+.aplicativo-row .aplicativo-img {
+    width: 70px;
+}
+
+.aplicativo-row .aplicativo-img img {
+    height: 40px;
+    width: 40px;
+}
+
+.aplicativo-row .aplicativo-title {
+    font-size: 16px;
+}
+
+.aplicativo-row .aplicativo-label {
+    width: 210px;
+}
+
+.aplicativo-row .aplicativo-label span {
+    width: 100%;
+    display: inline-block;
+    font: Bold 12px Arial;
+    color: #FFF;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #C9C9C9;
+}
+
+.aplicativo-row .aplicativo-label span.label-danger {
+    background-color: #F46255;
+}
+
+.aplicativo-row .aplicativo-label span.label-warning {
+    background-color: #E3A541;
+}
+
+.aplicativo-row .aplicativo-label span.label-success {
+    background-color: #28B374;
+}
+
+.aplicativo-row .aplicativo-label span.label-inactive {
+    background-color: #C9C9C9;
+}
+
+#edicao.app_edicao {
+    display: none;
+    padding: 0;
+    height: initial;
+}
+
+.aplicativo-form {
+    border-right: 1px solid rgb(204, 204, 204);
+    width: 46%;
+    padding-right: 10px;
+}
+
+#edicao #form_cadastro_aplicativo {
+    max-width: 654px;
+}
+
+#edicao #form_cadastro_aplicativo h1 {
+    font: Bold 19px/22px Arial;
+    color: #999;
+    margin-top: 0;
+}
+
+#edicao form .row {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.label-item-form.label-float-none {
+    float: none;
+}
+
+#btn_excluir {
+    float: right;
+    display: none;
+}
+
+#form_cadastro_aplicativo textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+#scopes {
+    min-height: 230px;
+    max-height: 257px;
+    overflow: auto;
+    border: 1px solid #CCCCCC;
+    margin-top: 3px;
+}
+
+#scopes #lista_accordion .accordion-item:first-child .accordion-heading > div {
+    border-top: none;
+}
+
+button.btn-add-escopos {
+    margin-top: 20px;
+}
+
+a.btn-add-escopos {
+    float: right;
+    font: Italic 12px/14px Arial;
+    margin-top: 8px;
+}
+
+#scopes_popup {
+    display: none;
+}
+
+#mini_pesquisa_avancada > div:nth-child(1) {
+    margin-top: 15px;
+}
+
+#mini_pesquisa_avancada > div:nth-child(2) {
+    padding-left: 0;
+}
+
+#pesquisa_avancada {
+    height: 30px;
+    border-right: none;
+    font-family: Arial;
+    font-size: 10pt;
+    padding-right: 12px;
+    width: calc(100% - 40px);
+    padding-left: 14px;
+}
+
+#mini_pesquisa_avancada .search-actions {
+    position: absolute;
+    background-color: #FFF;
+    right: 15px;
+    bottom: 0;
+}
+
+#mini_pesquisa_avancada .search-action {
+    position: relative;
+}
+
+#scopes_list {
+    max-height: 300px;
+    overflow: auto;
+}
+
+#scopes_list .scope .scope-heading {
+    display: -webkit-flex;
+    display: flex;
+    background-color: #d3d3d3;
+    position: relative;
+}
+
+#scopes_list .scope-body .scope.inactive .scope-heading, #scopes_list .scope-body .scope.inactive .scope-heading h2 {
+    color: #999;
+}
+
+#scopes_list .scope .scope-body .scope-heading {
+    padding-left: 37px;
+}
+
+#scopes_list .scope .scope-heading:hover {
+    cursor: pointer;
+}
+
+#scopes_list .scope.inactive .scope-heading:hover {
+    cursor: default;
+}
+
+#scopes_list .scope .scope-heading.active{
+    background-color: #E2EEE6;
+}
+
+#scopes_list .scope:not(:nth-last-of-type(1)) {
+    margin-bottom: 6px;
+}
+
+#scopes_list .scope .scope-heading .scope-checkbox {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+#scopes_list .scope .scope-heading .scope-checkbox .input-checkbox label {
+    text-align: initial;
+}
+
+#scopes_list .scope .scope-heading .scope-details {
+    flex: 9;
+    padding: 10px 5px 5px 0;
+}
+
+#scopes_list .scope .scope-heading .scope-details h2 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+#scopes_list .scope .scope-body .scope-heading .scope-details h2 {
+    font-size: 14px;
+}
+
+#scopes_list .scope .scope-heading .scope-details p {
+    margin-top: 0;
+}
+
+#scopes_list .scope .scope-heading .scope-icon {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+#scopes_list .scope .scope-heading .scope-text {
+    display: flex;
+    flex: 9;
+}
+
+#scopes_list .scope .scope-heading .counter-scopes {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: #DD6F77;
+}
+
+#scopes_list .scope .scope-heading .scope-icon .chevron {
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+}
+
+#scopes_list .scope .scope-heading .scope-icon .chevron::before {
+    content: "\f077";
+}
+
+#scopes_list .scope .scope-heading.collapsed .scope-icon .chevron::before {
+    content: "\f078";
+}
+
+#scopes_list .scope .scope-body {
+    margin-top: 5px;
+}
+
+.aplicativo-info {
+    position: absolute;
+    right: 0;
+    width: 47%;
+    overflow: auto;
+    display: none;
+}
+
+.aplicativo-info .users h1, .aplicativo-info .client-keys p {
+    color: #3FAC6C;
+    font-weight: bold;
+}
+
+.aplicativo-info .users {
+    margin-bottom: 35px;
+}
+
+.aplicativo-info .users h1 {
+    font-size: 18px;
+}
+
+.aplicativo-info .users h1 span {
+    font-size: 30px;
+}
+
+.aplicativo-info .client-keys h2 {
+    font-size: 12px;
+}
+
+.aplicativo-info .client-keys p {
+    font: Bold 14px/17px Arial;
+    margin-top: 8px;
+}
+
+.aplicativo-info .client-keys .show-client-secret {
+    cursor: pointer;
+}
+
+.aplicativo-info a {
+    font: Italic 12px Arial;
+}
+
+.hide-client-secret {
+    letter-spacing: 3px;
+}
+
+#logo_hover, #recebe_logo {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+.logo-uploader {
+    position: relative;
+    margin-top: 3px;
+}
+
+#logo_hover #recebe_logo img {
+    width: 75px;
+    height: 75px;
+}
+#logo_hover .qq-upload-button i {
+	font-size: 18px;
+}
+#logo_hover .qq-upload-button span.centerContent {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 15px;
+    margin-top: -15px !important;
+    text-transform: none;
+}
+
+#recebe_logo span.centerContent img {
+    border: 4px #CCC dashed;
+}
+
+#logo_hover:hover .qq-upload-button {
+	display: inline-block;
+}
+
+#logo_hover:hover .qq-upload-drop-area {
+	display: none !important;
+}
+
+#logo_hover .qq-upload-button, #logo_hover .qq-upload-drop-area, #logo_hover .qq-upload-button.not-hover {
+	display: none;
+	position: absolute !important;
+	top: 0;
+    width: 75px !important;
+	height: 100% !important;
+	background-color: rgba(0,0,0,0.8) !important;
+	line-height: 61px;
+	padding: 0;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+}
+
+#logo_uploader_list {
+    display: none;
+}
+
+#logo_hover .qq-upload-button.not-hover {
+    display: block;
+    opacity: 0;
+}
+
+#logo_uploader_button input {
+    height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .row .col-md-6:not(:nth-last-child(1)) {
+        margin-bottom: 10px;
+    }
+    #lista .block-inner {
+        padding: 0;
+    }
+    .aplicativo-row .aplicativo-label {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .aplicativo-info {
+        position: static;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        width: 100%;
+    }
+    .aplicativo-form {
+        position: static;
+        border-right: none !important;
+        width: initial;
+    }
+
+    #edicao {
+        padding-left: 0 !important;
+    }
+
+    #edicao .aplicativo-form #form_cadastro_aplicativo {
+        max-width: initial;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    #lista #content .box-section .section-content {
+        padding: 5px 0 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    #btn_excluir {
+        float: none;
+        margin-top: 5px;
+    }
+}

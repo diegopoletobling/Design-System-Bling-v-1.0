@@ -1,0 +1,138 @@
+#info #content {
+    float: none;
+    background-color: rgb(242, 250, 248);
+}
+
+#app_container {
+    background-color: white;
+    box-shadow: 0px 2px 4px #00000029;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.aplicativo-form {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#scopes {
+    max-height: 323px;
+}
+
+.table-listagem {
+    max-height: 350px;
+    max-width: 650px;
+    border: 1px solid #CCC;
+}
+
+.table-listagem table {
+    width: 100%;
+}
+
+.table-listagem.table-sticky-cells td {
+    background: initial;
+}
+
+.table-listagem table tbody>tr:nth-of-type(odd) {
+    background-color: #eee;
+}
+
+.table-listagem table tbody tr td{
+    padding: 15px;
+}
+
+.table-listagem table tbody tr td, .table-listagem table thead tr th {
+    text-align: center;
+}
+
+.table-listagem table thead tr th {
+    background-color: #E8E8E8;
+    color: #666;
+    font-size: 9pt;
+    height: 28px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    height: 35px;
+    border-bottom: 2px solid #DDD;
+}
+
+.table-listagem table tbody tr td:first-child, .table-listagem table thead tr th:first-child {
+    text-align: left;
+}
+
+#btn_curadoria input, #app_buttons {
+    margin: 20px 0;
+}
+
+#app_footer {
+    max-width: 684px;
+}
+
+#app_site a {
+    word-break: break-all;
+}
+
+.ui-dialog.fixed.slideIn.curadoria-dialog {
+    box-shadow: 0px 3px 6px #00000029;
+    max-width: 390px;
+}
+
+#curadoria {
+    padding-top: 22px;
+}
+
+#curadoria #curadoria_checklist .checklist-item {
+    padding:22px 0 16px 0;
+    border-bottom: 1px solid #C9C9C9;
+    font: 14px Arial;
+}
+
+#curadoria #curadoria_checklist .checklist-item:first-child {
+    border-top: 1px solid #C9C9C9;
+}
+
+#curadoria #curadoria_checklist .checklist-item .input-checkbox {
+    margin-right: 20px;
+}
+
+#btn_aprovar {
+    margin-right: 12px !important;
+}
+
+#btn_rejeitar {
+    background-color: #FFF !important;
+}
+
+#btn_rejeitar:hover {
+    background-color: #E8E8E8 !important;
+}
+
+#btn_voltar {
+    display: inline-block;
+}
+
+#btn_voltar .paths a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn_aprovar:disabled {
+    filter: opacity(0.5);
+    cursor: default;
+}
+
+@media screen and (max-width: 992px) {
+    #info .aplicativo-form #aplicativo-info {
+        max-width: initial;
+    }
+
+    #aplicativo_avisos .table-listagem{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .ui-dialog.fixed.slideIn.curadoria-dialog {
+        max-width: 100%;
+    }
+}

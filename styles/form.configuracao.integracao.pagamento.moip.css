@@ -1,0 +1,265 @@
+.helper-step {
+	background-color: #162943;
+	text-align: center;
+	min-height: 550px;
+	color: #ecffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.helper-step .block-inner {
+	max-width: 800px;
+	min-height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.helper-step h1, .helper-step h2 {
+	color: #ecffff;
+	margin: 0;
+}
+
+.helper-step h1 {
+	font-size: 23pt;
+}
+
+.helper-step h2 {
+	font-size: 17pt;
+}
+
+.helper-step .button-default-novo {
+	background-color: #124a7a;
+	width: 121px;
+	height: 36px;
+	border-radius: 1px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.helper-step .button-default-novo:hover, .button-default-novo:focus {
+	background-color: #4188c4;
+}
+
+.helper-step .button-default-novo:disabled {
+	background-color: #6196c5;
+	color: #7cb2db;
+}
+
+.helper-step .buttons-container {
+	margin-top: 27px;
+}
+
+.options-block {
+	display: flex;
+	justify-content: center;
+	flex-flow:row wrap;
+	text-align: left;
+}
+
+.option-radio {
+	position: relative;
+	border: 1px solid #fff;
+	padding: 15px 50px 15px 50px;
+	margin: 15px;
+	text-align: left;
+	width: 290px;
+	cursor: pointer;
+}
+
+.option-input {
+	margin: 5px 15px 5px 15px;
+	flex-grow: 1;
+}
+
+.option-input input {
+	border: 1px solid #FFF;
+	background: transparent;
+}
+
+.option-input label {
+	color: #FFF;
+	font-weight: normal;
+}
+
+.option-radio .input-radio {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.helper-step .alert-box-info {
+	background-color: #f9e48c !important;
+	margin-bottom: 30px;
+}
+
+.helper-step .alert-box-info p, .helper-step .alert-box-info h3 {
+	color: #005693 !important;
+}
+
+.box-block {
+	border: 1px solid #fff;
+	text-align: left;
+	padding: 20px 40px 20px 40px;
+	font-size: 12pt;
+}
+
+.helper-step .input_text {
+	color: #fff;
+	height: 31px;
+	font-size: 14px;
+}
+
+.helper-step .input_text:focus {
+	border: 1px solid #124a7a;
+	color: #fff;
+}
+
+.helper-step .input-radio input[type="radio"]:checked + label:before {
+	border: 3px solid #01ace4;
+	background-color: #124a7a;
+	box-shadow: 0 0 0px 2px #124a7a;
+}
+
+.helper-step .input-radio input[type="radio"] + label:before {
+	background-color: transparent;
+    border: 3px solid transparent;
+    box-shadow: 0 0 0px 1px #FFF;
+}
+
+.helper-step .warning {
+	background-color: transparent !important;
+	border: 1px solid red !important;
+}
+
+.info-block {
+	padding: 30px;
+	background-color: #f9e48c;
+	color: #005693 !important;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.info-block h3 {
+	margin-top: 0;
+}
+
+.input-checkbox label {
+	border: 1px solid #124a7a
+}
+
+.input-checkbox input[type="checkbox"]:checked + label {
+	background-color: transparent;
+	border: 1px solid #124a7a
+}
+
+.input-checkbox input[type="checkbox"]:checked + label:after {
+	color: #124a7a;
+}
+
+.logo_moip {
+	margin-bottom: 30px;
+	width: 200px;
+}
+
+.alert-box {
+	text-align: left;
+}
+
+.texto-subtitulo {
+	font-size: 12pt;
+}
+
+.helper-step input:required {
+    box-shadow: none;
+}
+
+.config-box-step {
+    margin-right: 15px;
+}
+
+.config-box-step img {
+    border: 1px solid #CCC;
+}
+
+.config-box-step h2 {
+    color: #999999;
+	padding: 10px 0 10px 0;
+    margin: 0px;
+}
+
+.config-box-step p {
+    font-size: 9pt;
+    color: #666;
+}
+
+#moip_account_data div.group-item-form {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.list-title {
+    display: block;
+    font-family: 'Arial';
+    font-weight: normal;
+}
+
+.vertical-bar ol li, .vertical-bar ul li {
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size: 10pt;
+    color: #999999;
+}
+
+@media screen and (max-width:850px) {
+	.helper-step .input_text:focus {
+        background: transparent;
+    }
+}
+
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+.alert-box {
+	margin-top: 0;
+}
+
+#update_token_container {
+	display: none;
+	width: 35%;
+	text-align: center;
+}
+
+#integration_status .useful-info-danger h3 {
+	color: #e9554e;
+}
+
+#integration_status .useful-info-danger #update_token_container {
+	display: inline-block;
+}
+
+.useful-info-loading:before {
+	color: #3faf6c !important;
+	content: "\f1ce" !important;
+	-webkit-animation: fa-spin 1.5s infinite linear;
+	animation: fa-spin 1.5s infinite linear;
+}
+
+.useful-info-loading {
+	background-color: #fff !important;
+	border: 1px solid #e2e2e2;
+}
+
+.wirecard-icon:before {
+	font-size: 25px;
+}
+
+#list-integration table tr {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.subtitulo {
+	font-size: 11pt;
+}

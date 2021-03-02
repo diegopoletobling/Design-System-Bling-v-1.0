@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "wirecard-icons";
+  src:url("font/wirecard-icons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wirecard-icon:before {
+    content: "\77";
+    font-size: 18px;
+    font-family: "wirecard-icons" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

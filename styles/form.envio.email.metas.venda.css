@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 8pt;
+}
+.bold {
+	font-weight: bold;
+}
+.seta-up {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAYFBMVEVMaXFGngBJowBkh0x3d3d1enF0e3Bxfml2enN3eXZLpwB1fHF5eXhjj0VMqgB7fnl8f3pOrwBkmEFPrwJRrwhUsQ5vllWAhnxYsxVdtR12plWKo3p4wEaPq316wUuTtH6VDtQcAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjYEAFPJwwloC8FDeExS8rIynEBmKJS8tJiAjzsgNZHGISwsJ8zCxANgOrqKAgFwtYLSsXExMjhMkCBiimAwCXvQKPDZkbQAAAAABJRU5ErkJggg==");
+}
+.seta-down {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAYFBMVEVMaXFkZGRpZGRvYmNpZmZxY2NvZGR0YmN1Y2R/YGFxaWqiU1xyamvgOVy0Ul/oO199b2/FUmTwPWL0PmS3X2n7QWj8Q2n8RWv9SG7/THHUZXS2e3/EgYb/ZoP/aYTUhYy5E27ZAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjYEAGjGAAYfLy8wsxQ5hCoqLirEAGJyO3sKiohAibAJDNJyomISctAFLALigpK8MFMYJDSp4HZhwTCwMqAACMLgKfIWbS6QAAAABJRU5ErkJggg==");
+}
+.comentarios-container {
+	color: #222;
+	background: #ffffcf;
+	padding: 10px 5px 15px 35px;
+	float: left;
+	width: 80%;
+	margin-bottom: 30px;
+}
+.comentarios-title {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+}
+.comentarios-text {
+	font-size: 10pt;
+	text-align: left;
+	margin: 0;
+}
+.tabela-ano {
+	font-size: 8pt;
+	width: 100%;
+	border-collapse: collapse;
+	padding: 0;
+}
+.titulo-tabela-ano {
+	font-weight: bold;
+	border-bottom: 2px solid #888;
+	height: 20px;
+	padding-right: 10px;
+}
+.titulo-tabela-ano p {
+	font-size: 12pt;
+	color: #2babaf;
+	text-align: center;
+	margin: 0;
+}
+.tabela-ano .header {
+	font-weight: bold;
+	border-bottom: 2px solid #888;
+	color: #000;
+	height: 20px;
+	padding-right: 10px;
+}
+.tabela-ano td.mes {
+	border-bottom: 1px solid #cccccc;
+	line-height: 24px;
+	padding-right: 10px;
+}
+.tabela-ano td.value {
+	border-bottom: 1px solid #cccccc;
+	line-height: 24px;
+	padding-right: 10px;
+	text-align: center;
+}
+.tabela-ano-atual {
+	padding: 0;
+	border-collapse: collapse;
+	background-color: #e0eeef;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.tabela-geral td.label {
+	border-bottom: 1px solid #cccccc;
+	line-height: 24px;
+	padding-right: 10px;
+}
+.tabela-geral td.value {
+	border-bottom: 1px solid #cccccc;
+	line-height: 24px;
+	padding-right: 10px;
+	text-align: right;
+}

@@ -1,0 +1,71 @@
+.btn-print {
+	color: #0073B7 !important;
+}
+
+.btn-exclude {
+	color: #F46255 !important;
+	width: 39px !important;
+	margin-left: 8px;
+}
+
+.btn-icon {
+	height: 30px !important;
+	min-width: 39px !important;
+	border: 1px solid #CCC !important;
+	font-size: 12pt !important;
+	background-color: #FFF !important;
+	vertical-align: middle !important;
+	padding: 1px 6px !important;
+}
+
+.bling-form button .fas {
+	margin: 0;
+}
+
+.fa-chevron-down {
+	color: #666666 !important;
+}
+
+.drop-item {
+	padding: 4px 8px 4px 30px !important;
+	text-align: left;
+	display: block;
+	float: none;
+	min-width: 190px;
+}
+
+.drop-item[disabled],
+button[disabled] {
+	cursor: not-allowed !important;
+	filter: opacity(0.5);
+}
+
+button[disabled] {
+	border: 1px solid #969696;
+}
+
+.drop-item:hover {
+	background-color: #E8E8E8;
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	left: inherit;
+	right: calc(100% - 40px);
+}
+
+.btn-group .btn {
+	width: 39px !important;
+}
+
+#datatableEtiquetas th .input-checkbox {
+	margin-left: 0px !important;
+}
+
+.btn-group-complementar {
+	text-align: right;
+}
+
+#btn_print {
+	padding: 1px 6px;
+}

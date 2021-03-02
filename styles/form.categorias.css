@@ -1,0 +1,49 @@
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+span[class^='marcador-padrao-'] {
+    font-size: 12px;
+    border-radius: 1px;
+    padding: 4px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.marcador-padrao-venda {
+    border: 1px solid #E8AD00;
+}
+
+.marcador-padrao-compra {
+    border: 1px solid #E9425C;
+}
+
+.marcador-padrao-gnre {
+    border: 1px solid #623D91;
+}
+
+.marcador-padrao-servico {
+    border: 1px solid #009F80;
+}
+
+.tree-list-toolbox {
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-bottom: 2px solid #DBDBDB;
+}
+
+.tree-list .tree-node-disabled {
+    color: #a9a9a9;
+}
+
+.tree-list .tree-node-disabled .tree-node-options .fa-plus {
+    display: none;
+}
+
+.tree-list-toolbox {
+    display: flex;
+}
+
+#tree_search {
+    margin: 0;
+}

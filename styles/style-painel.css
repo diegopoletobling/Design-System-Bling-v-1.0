@@ -1,0 +1,225 @@
+html{
+	height:100%;
+	padding:0;
+	margin:0;
+}
+body {
+	background-color: #fff;
+	color:#777;
+	font-family:sans;
+	padding: 0 !important;
+	margin: 0 !important;
+	height:100%;
+}
+iframe {
+	border: none;
+	margin:0;
+	padding:0;
+	display:block;
+}
+.painelOrange{background-color:orange;width:100%;font-weight:bold;color:#000; margin-bottom:8px;}
+.c1{background-color:#D3DF88;}
+.c2{background-color:#FFE500;}
+.c3{background-color:#FFCC00;}
+.c4{background-color:#FFB200;}
+.c5{background-color:#FF9900;}
+.c6{background-color:#FF8000;}
+.c7{background-color:#FF6600;}
+.c8{background-color:#FF3300;}
+.c9{background-color:#FF0000;}
+.c10{background-color:#741717; text-decoration: blink;}
+
+.painelRed{background-color:red;width:100%;font-weight:bold;color:#000; margin-bottom:8px;}
+.painelBlue{background-color:#4682B4;width:100%;font-weight:bold;color:#ffffff; margin-bottom:8px;}
+.titulo{font-size:0.6em;text-align:center;}
+
+#graficoAc{margin-left:-95px;}
+#graficoAcUsr{margin-left:-95px;}
+#graficoAreaOutros{margin-left:-95px;}
+.fonteBranca{color:#ffffff; text-align:center; size:15pt;}
+
+#online_placeholder {
+	height: 50px;
+	width: 30%;
+	display: inline-block;
+	position:absolute;
+	top:0px;
+	right:6%;
+}
+
+#online_placeholder:before {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	background-image:url("/styles/images/usuarios.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	content: "";
+	margin: 0 0 0 -40px;
+}
+.replicadores-container {
+	margin:0;
+	float:left;
+	clear:left;
+}
+
+#tooltip{color:#666;}
+#frame-inscricao-desenvolvimento {
+	width: 35%;
+	height:30%;
+	left:65%;
+}
+
+#frame-inscricao {
+	width: 35%;
+	height:50%;
+	left:65%;
+}
+
+.bloco{
+	position:relative;
+	height:54px;
+	display:inline-block;
+	margin:5px;
+	width:40px;
+}
+.bloco-menor{
+	position:relative;
+	height:38px;
+	display:inline-block;
+	margin:3px;
+	width:25px;
+	text-align:center;
+}
+.counter-cima{
+	background-color:#4a4a4a;
+	border-radius:5px 5px 0 0;
+	font-size:45px;
+	margin:0;
+	color:#ccc;
+	font-weight:400;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:3px solid rgba(0, 0, 0, 0.5);
+	height:25px;
+	overflow:hidden;
+	display:inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:40px;
+
+}
+.counter-cima-menor{
+	background-color:#4a4a4a;
+	border-radius:5px 5px 0 0;
+	font-size:30px;
+	margin:0;
+	color:#ccc;
+	font-weight:400;
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+	border-bottom:2px solid rgba(0, 0, 0, 0.5);
+	height:17px;
+	overflow:hidden;
+	display:inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:25px;
+
+}
+.counter-baixo{
+	background-color:#4a4a4a;
+	border-radius:0 0 5px 5px;
+	font-size:45px;
+	margin:0;
+	color:#ccc;
+	font-weight:400;
+	border-top:1px solid rgba(255, 255, 255, 0.5);
+	height:25px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:bottom;
+	line-height:0px;
+	position:absolute;
+	bottom: 0;
+	left:0;
+	width:40px;
+}
+.counter-baixo-menor{
+	background-color:#4a4a4a;
+	border-radius:0 0 5px 5px;
+	font-size:30px;
+	margin:0;
+	color:#ccc;
+	font-weight:400;
+	border-top:1px solid rgba(255, 255, 255, 0.5);
+	height:17px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:top;
+	line-height:0px;
+	position:absolute;
+	bottom: 0;
+	left:0;
+	width:25px;
+}
+.totalInscritos{
+	text-align:center;
+	margin: 0px 0;
+	display:inline-block;
+}
+
+#frame-bling{
+	width: 65%;
+	height:100%;
+	float:left;
+}
+
+.container {
+	background-color: #eee;
+	padding: 0.5%;
+	padding:0;
+	border-radius: 13px;
+	margin: 0;
+	height: calc(100% - 20px);
+	display:block;
+	border:10px solid #fff;
+}
+
+.container h2 {
+	font-weight:normal;
+}
+
+#frame-ticket {
+	width: 35%;
+	height:50%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+#frame-ticket-desenvolvimento {
+	width: 35%;
+	height:70%;
+	display: inline-block;
+	vertical-align:top;
+}
+#suporte h2 {
+	text-align:center;
+	margin: 0;
+}
+
+#suporte table {
+	width: 100%;
+}
+
+.odd{
+	background-color: #bfbfbf;
+	font-weight:bold;
+	color:#000;
+	padding:0;
+	height:5.2vh;
+}
+
+.whiterow, .operador.painel-atend {
+	height: 45px;
+}

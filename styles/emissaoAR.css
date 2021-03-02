@@ -1,0 +1,91 @@
+table {
+	min-height: 358px;
+}
+table, td, tr{
+	border: 2px #000 solid;
+	border-collapse: collapse;
+	font-size: 8px;
+	font-family: arial;
+}
+td{
+	vertical-align:top;	
+}
+.box_ar{
+	width: 610px;
+	height: 370px;
+	margin-left: 25px;
+}
+.logo_correios{
+	width: 119px;
+	height: 25px;
+}
+.tilt_sigep, .tilt_ar{
+	position: absolute;
+	font-weight: bold;
+}
+.tilt_sigep{
+	font-size: 16px;
+	left: 170px;
+	top: 8px;
+}
+.tilt_label{
+	font-size: 6px;
+}
+.tilt_ar{
+	font-size: 10px;
+	top: 4px;
+	left: 230px;
+}
+.contrato{
+	left: 350px;
+	top: 10px;
+	font-size: 10px;	
+	position: absolute;
+}
+.wh20{
+	width: 20%;
+}
+.wh25{
+	width: 25%;
+}
+.wh45{
+	width: 45%;
+}
+.wh50{
+	width: 50%;
+}
+.wh100{
+	width: 100%;
+}
+.negrito{
+	font-weight: bold;
+}
+.center{
+	text-align: center;
+}
+.cole_aqui{
+	width: 20px;
+	height: 355px;
+	position: absolute;
+	left: -5px;
+	float:left;
+	top: 0;
+	border: 2px #000 dashed;
+}
+.mot_dev span{
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+	font-size: 7px;
+}
+.mot_dev span i{
+	border: 2px #000 solid;
+	padding: 2px 6px 2px 6px;
+}
+.padd{	
+	padding: 5px 0px 0px 5px;
+}
+.ar-container{
+	display: block;
+	position: relative;
+}

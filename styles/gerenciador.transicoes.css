@@ -1,0 +1,418 @@
+.list-actions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-transitions #accordion {
+    margin-bottom: 0px;
+}
+
+.list-transitions #accordion .panel {
+    border-radius: 0;
+    margin: 0;
+}
+
+.list-transitions #accordion .panel {
+    border: 1px solid #CCCCCC;
+}
+
+.list-transitions #accordion .panel:not(:first-child) {
+    border-top: 0;
+}
+
+.list-transitions #accordion .panel-heading {
+    border-radius: 0;
+    background-color: #E8E8E8;
+    color: #666666;
+    padding: 0;
+    font-size: 11pt;
+    position: relative;
+}
+
+.list-transitions #accordion .panel-heading .row .icon-picture,
+.list-transitions #accordion .panel-heading .row .icon-trash,
+.list-transitions #accordion .panel-heading .row .icon-pencil {
+    display: none;
+    cursor: pointer;
+}
+
+.list-transitions #accordion .panel-heading:hover {
+    background-color: #CCCCCC;
+}
+
+.list-transitions #accordion .panel-heading:hover .icon-picture,
+.list-transitions #accordion .panel-heading:hover .icon-trash,
+.list-transitions #accordion .panel-heading:hover .icon-pencil {
+    display: inline-block;
+}
+
+.list-transitions #accordion .panel-heading .icon-trash {
+    color: #DD6F77;
+    width: 12px;
+}
+
+.list-transitions #accordion .row {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.list-transitions #accordion .panel-heading h4 {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.list-transitions #accordion .panel-heading h4 span{
+    font-weight: normal;
+}
+
+.list-transitions #accordion .panel-heading .row i {
+    margin-right: 15px;
+    font-style: normal;
+    width: 16px;
+}
+
+.list-transitions #accordion .panel-heading .row > div:first-of-type,
+.list-transitions #accordion .panel-body .row > div:first-of-type {
+    display: inline-flex;
+    align-items: center;
+}
+
+.list-transitions #accordion .panel-heading .row > div:last-of-type {
+    text-align: right;
+}
+
+.list-transitions #accordion .panel-heading .chevron::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f078";
+    font-weight: 900;
+}
+
+.list-transitions #accordion .panel-heading.collapsed .chevron::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f054";
+    font-weight: 900;
+}
+
+.list-transitions #accordion .panel-body {
+    padding: 0;
+}
+
+.list-transitions #accordion .panel-body .row {
+    border-top: 1px solid #CCCCCC;
+}
+
+.list-transitions #accordion .panel-body .row:not(.header-transitions):not(.nova-transicao) {
+    cursor: pointer;
+}
+
+.list-transitions #accordion .panel-body .status-icon {
+    text-align: right;
+}
+
+.list-transitions #accordion .panel-body .status-icon p {
+    margin-right: 22px;
+}
+
+.list-transitions #accordion .panel-body .status-icon .fa {
+    font-size: 18px;
+}
+
+.list-transitions #accordion .panel-body .status-icon .fa-check-circle {
+    color: #3FAF6C;
+}
+
+.list-transitions #accordion .panel-body .status-icon .fa-times-circle {
+    color: #E9554E;
+}
+
+.list-transitions #accordion .panel-body p[data-transition-actions],
+.list-transitions #accordion .panel-body p[data-transition-destino],
+.list-transitions #accordion .panel-heading h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list-transitions #accordion .panel-body .input-checkbox {
+    margin-right: 15px;
+}
+
+.list-transitions #accordion .panel-body .header-transitions p {
+    color: #999999;
+    font-size: 8pt;
+}
+
+.list-transitions #accordion .panel-body .icon-pencil {
+    color: transparent;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.list-transitions #accordion .panel-body .row:hover .icon-pencil {
+    color: #999999;
+}
+
+.list-transitions #accordion .panel-body .loading-data {
+    height: 80px;
+    position: relative;
+}
+
+.list-transitions #accordion .nova-transicao span {
+    margin-left: auto;
+    font-size: 9pt;
+}
+
+.list-transitions #accordion .nova-transicao span.nova-transicao-desabilitada {
+    color: #999999 !important;
+    cursor: not-allowed;
+    text-decoration: none !important;
+}
+
+.list-transitions .button-create-situations {
+    margin-top: 10px;
+    text-align: center;
+    border: 1px dashed #7CB5D8;
+    height: 35px;
+    cursor: pointer;
+}
+
+.list-transitions .button-create-situations span {
+    font-size: 14px;
+    color: #7CB5D8;
+    line-height: 35px;
+    font-weight:bold;
+}
+
+.edit-transition {
+    display: none;
+}
+
+.edit-transition .list-actions {
+    border: 1px solid #999999;
+    max-height: 162px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 5px;
+}
+
+.edit-transition h2 {
+    margin: 15px 0 3px 0;
+    padding: 0px 0px 0px 0;
+    font-size: 8pt;
+    color: #666;
+    font-weight: bold;
+}
+
+.edit-transition .list-actions li {
+    min-height: 30px;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.edit-transition .list-actions > li:not(:last-of-type) {
+    border-bottom: 1px solid #999999;
+}
+
+.edit-transition .list-actions li[hidden] {
+    display: none;
+}
+
+.edit-transition .item-form-toggle {
+    min-width: 100px;
+    margin-left: auto;
+}
+
+.edit-transition .row > div:nth-of-type(2) {
+    font-size: 23px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.edit-transition .dialog-status {
+    display: inline-flex;
+    width: 100%;
+    border: 1px solid #999999;
+    padding: 1px 5px;
+    height: 30px
+}
+
+.edit-transition .dialog-status > span {
+    margin: 3px 0 0 0;
+    line-height: 20px;
+    font-size: 9pt;
+}
+
+.edit-transition .dialog-status .item-form-toggle {
+    margin-left: auto;
+}
+
+.container-config-fsm {
+    padding: 15px;
+    padding-top: 5px;
+}
+
+.delete-dialog .fa-question-circle {
+    color: #DF913D;
+    font-size: 25pt;
+    margin-left: 25px;
+}
+
+.delete-dialog .row > div:first-of-type {
+    padding-top: 5px;
+}
+
+.delete-dialog h2 {
+    color: #3F3D3D;
+    font-size: 13pt;
+    margin: 0 0 5px 0;
+}
+
+.delete-dialog span {
+    color: #3F3D3D;
+    font-size: 9pt;
+}
+
+#container_graph {
+    max-width: 550px;
+    max-height: 550px;
+    height: calc(100vh - 130px);
+    width: calc(100vh - 130px);
+    border: 5px solid #CCCCCC;
+    border-radius: 100%;
+    margin: auto;
+}
+
+#container_graph canvas {
+    border-radius: 100%;
+}
+
+.hidden-popover {
+    visibility: hidden !important;
+}
+
+.popover-graph .arrow {
+    top: 50% !important;
+}
+
+.disable-interface {
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.busca-nao-encontrada > div {
+    margin-top: 40px;
+}
+
+.box-side .actions h3:last-of-type {
+    margin-top: 50px;
+}
+
+.create-situations {
+    display: none;
+}
+
+.create-situations .row:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.create-situations input[type='color'] {
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    height: 30px;
+    width: 100%;
+    margin-top: 3px;
+    padding: 0;
+    display: none;
+}
+
+.create-situations input[type=color]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.create-situations input[type="color"]::-webkit-color-swatch {
+	border-color: #999999;
+}
+
+.create-situations .input-color {
+    overflow: hidden;
+}
+
+.create-situations .input-color > div {
+    height: 30px;
+    margin-top: 13px;
+    border: 1px solid #999999;
+}
+
+.mobile-dropdown {
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    width: 100px;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.mobile-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-dropdown li:hover {
+    cursor: pointer;
+}
+
+.mobile-dropdown li:not(:first-of-type) {
+    margin-top: 5px;
+}
+
+.mobile-dropdown li:not(:last-of-type) {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.label-item-form-toggle {
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width:1199px) {
+    .list-transitions #accordion .panel-body .icon-pencil {
+        margin-left: 3px;
+    }
+
+    .list-transitions #accordion .panel-body .status-icon p {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .list-transitions #accordion .panel-body .status-icon .fa {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .edit-transition .select-destino label {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .list-transitions #accordion .panel-heading h4 span {
+        display: none;
+    }
+
+    .list-transitions #accordion .panel-heading .row i {
+        width: auto;
+        margin-right: 11px;
+    }
+}

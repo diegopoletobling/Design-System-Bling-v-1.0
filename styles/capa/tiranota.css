@@ -1,0 +1,8 @@
+#header-container{background:url(images/nfe_01.png) repeat-x;height:77px;}
+#header-content{background:url(images/nfe_02.png) no-repeat;height:77px;}
+
+#banner-container{background:url(images/nfe_04.png) repeat-x;margin-top:0;}
+#banner-content{background:url(images/nfe_05.png) no-repeat;}
+
+#login-box{background:url(images/nfe_08.png) no-repeat;}
+.link,.link:hover,.link:focus{display:inline;margin:0; color:blue; font-weight: normal; border:0; cursor:pointer; background:transparent; text-decoration:underline; }

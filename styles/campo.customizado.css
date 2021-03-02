@@ -1,0 +1,301 @@
+.field-editor {
+    display: none;
+    padding: 0 15px !important;
+}
+
+.field-editor h2 {
+    font-size: 12pt;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.field-editor > .row {
+    max-height: calc(100vh - 110px);
+}
+
+.field-editor > .row > div {
+    height: 420px;
+    overflow-y: auto;
+}
+
+.field-editor > .row > div:first-of-type {
+    border-right: 1px solid #999999;
+}
+
+.field-editor .types-list {
+    padding: 0px 19px 6px 19px;
+}
+
+.field-editor .types-list > div {
+    padding: 4px 6px;
+}
+
+.field-editor .type-option div {
+    border: 1px solid #999999;
+    height: 81px;
+    text-align: center;
+}
+
+.field-editor .types-list:not(.disabled-types) .type-option:not(.selected) div:hover {
+    background-color: #CCCCCC;
+}
+
+.field-editor .types-list.disabled-types .type-option:not(.selected) div {
+    border: 1px solid #CCCCCC;
+    cursor: not-allowed;
+}
+
+.field-editor .type-option img {
+    display: block;
+    margin: 14px auto 10px auto;
+}
+
+.field-editor .types-list.disabled-types .type-option:not(.selected) img {
+    opacity: 0.3;
+}
+
+.field-editor .type-option span {
+    font-size: 11pt;
+    color: #3F3D3D;
+    font-weight: bold;
+}
+
+.field-editor .types-list.disabled-types .type-option:not(.selected) span {
+    color: #CCCCCC;
+}
+
+.field-editor .type-option.selected span {
+    color: #FFFFFF;
+}
+
+.field-editor .type-option.selected div {
+    background-color: #49B776;
+}
+
+.field-editor .types-list.disabled-types .button-navigate-types {
+    display: none;
+}
+
+.field-editor .types-list .left-button-types,
+.field-editor .types-list .right-button-types {
+    height: 81px;
+    text-align: center;
+}
+
+.field-editor .types-list .left-button-types i,
+.field-editor .types-list .right-button-types i {
+    font-size: 20pt;
+    line-height: 81px;
+    color: #999999;
+}
+
+.field-editor .form-field .row {
+    margin-top: 4px;
+    margin-bottom: 11px;
+}
+
+.field-editor .form-field .field-list .options-field-list {
+    clear: both;
+    min-height: 75px;
+}
+
+.field-editor .form-field .field-list .options-field-list ul {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+    margin: 0;
+}
+
+.field-editor .form-field .field-list .options-field-list li {
+    background: url('../imagens/campos-customizados/drag.png') no-repeat 0px 4px;
+    height: 38px;
+    padding-left: 14px;
+    position: relative;
+    cursor: grab;
+}
+
+.field-editor .form-field .field-list .options-field-list .disableb-sortable li {
+    cursor: not-allowed;
+}
+
+.field-editor .form-field .field-list .options-field-list .icon-trash {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 16px;
+    color: #DD6F77;
+    cursor: pointer;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers {
+    clear: both;
+    max-height: 330px;
+    overflow-y: auto;
+    margin-top: 3px;
+    position: relative;
+    display: none;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers > div {
+    border: 1px solid #CCCCCC;
+    border-bottom: none;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers > div.exclamation-items {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-default {
+    margin: 0;
+    border: none;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-body,
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading {
+    padding: 0;
+    margin: 0;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading {
+    border: none;
+    background-color: #EDEEF0;
+    border-radius: 0;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading::before {
+    border-bottom: 1px solid #CCCCCC;
+    content: '';
+    height: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-body .panel-heading {
+    background-color: #FFF;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading > .row {
+    margin: 0;
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading > .row > div {
+    height: 16px;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading > .row > div:last-of-type {
+    display: flex;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading > .row > div:last-of-type :first-child {
+    margin-left: auto;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading .panel-title {
+    font-size: 14px;
+    color: #666666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-collapse {
+    padding-left: 10px;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading .chevron::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\F078';
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading.collapsed .chevron::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\F054';
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .panel-heading i {
+    font-style: normal;
+    font-size: 10px;
+    margin-right: 10px;
+    line-height: 16px;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .exclamation-items {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .exclamation-items i {
+    margin-bottom: 0;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .exclamation-items p {
+    font-size: 9pt;
+}
+
+.field-editor .form-field .field-classifier .accordion-classifiers .exclamation-items h3 {
+    font-size: 11pt;
+}
+
+.popover-field-types div {
+    max-width: 260px;
+}
+
+.popover-field-types p {
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.popover-field-types label {
+    color: #CCCCCC;
+}
+
+.popover-field-types .exemplo-campo-data {
+    position: relative;
+}
+
+.popover-field-types .exemplo-campo-data i {
+    position: absolute;
+    top: 25px;
+    right: 7px;
+    color: #3F3D3D;
+    font-size: 16px;
+}
+
+.popover-info-form-field {
+    min-height: 160px;
+}
+
+@media screen and (max-width:991px) {
+    .field-editor > .row > div {
+        height: auto;
+    }
+
+    .popover-field-types {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .field-editor > .row > div {
+        height: auto;
+    }
+
+    .field-editor .types-list > .col-sm-6 {
+        display: none;
+    }
+
+    .field-editor .types-list .selected {
+        display: block;
+    }
+
+    .field-editor .types-list.disabled-types > div {
+        width: 100%;
+    }
+}

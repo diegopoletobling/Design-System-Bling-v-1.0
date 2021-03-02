@@ -1,0 +1,175 @@
+// Layout & media queries
+
+ $sm: 30rem;
+ $md: 60rem;
+ $lg: 80rem;
+
+$sm-screen: 'screen and (min-width: #{$sm})';
+$md-screen: 'screen and (min-width: #{$md})';
+$lg-screen: 'screen and (min-width: #{$lg})';
+
+$columns: 12;
+$col-gutter: 1rem;
+$grid-container: 80rem;
+
+
+// Sass Maps - https://www.viget.com/articles/sass-maps-are-awesome
+
+$breakpoints: (
+	sm: $sm-screen,
+	md: $md-screen,
+	lg: $lg-screen
+);
+
+%col-style {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+// Generate columns
+@for $i from 1 through $columns {
+  .col-#{$i} { //turns to col-1, col-2 etc..
+    width: percentage($i / $columns);
+		@extend %col-style;
+  }
+
+	.col-offset-#{$i} {
+    margin-left: percentage($i / $columns);
+  }
+}
+
+// Make columns responsive
+@each $breakpoint, $width in $breakpoints {
+	// hack to get around inability to extend from within media queries
+	@for $i from 1 through $columns {
+		.col-#{$breakpoint}-#{$i} {
+			@extend %col-style;
+		}
+	}
+
+	@media #{$width} {
+		@for $i from 1 through $columns {
+			.col-#{$breakpoint}-#{$i} {
+         width: percentage($i / $columns);
+			}
+			.col-offset-#{$breakpoint}-#{$i} {
+				margin-left: percentage($i / $columns);
+			}
+		}
+	}
+}
+
+// Check to see if the screen responds to the proper breakpoint
+@mixin respond-to($breakpoint) {
+
+  @if $breakpoint == sm {
+    @media (max-width: #{$sm-screen - .01}) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == md {
+    // respond to medium and small
+    @media (min-width: #{$md-screen}) and (max-width: #{$md-screen - .01}) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == lg {
+    // respond to medium and large
+    @media (min-width: #{$lg-screen}) and (max-width: #{$lg-screen - .01}) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-to-multiple($breakpoints...) {
+  @each $item in $breakpoints {
+    @if $item != null {
+      @include respond-to($item) {
+        @content;
+      }
+    }
+  }
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+   &:after {
+     clear: both;
+   }
+}
+
+// Colum gutters
+.col-gut {
+  padding-left: $col-gutter;
+  padding-right: $col-gutter;
+}
+
+.grid-container {
+  @media #{$lg-screen} {
+    width: 100%;
+    max-width: $grid-container;
+    margin: 0 auto;
+  }
+}
+
+
+//convert px values to rem
+@function calculateRem($px-value) {
+	 @return $px-value/(16)+rem;
+}
+
+
+
+// ROWS
+
+//generate rows
+$row-value: 8;
+
+@for $i from 1 through 7 {
+  $y: $i;
+
+  // There are no use for these two values in the designs, so we skip them. Values are 40, 48
+  @if $i >= 5  {
+    $y: $i + 2;
+  }
+
+  .row-gut-#{$i} {
+    margin-bottom: calculateRem($y * $row-value);
+  }
+}
+
+// For demo only
+
+html {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+
+.box {
+	background: #EFEBE9;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	font-size: 1rem;
+	border: 1px solid black;
+}

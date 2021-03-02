@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.+)-[0-9-]+\.woff$ $1.woff [NC,L]  # arquivo-12345.woff => arquivo.woff

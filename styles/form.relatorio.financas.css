@@ -1,0 +1,82 @@
+.chart-tool-bar {
+	padding: 10px;
+	font-size: 18px;
+}
+.chart-tool-bar .chart-option {
+	padding: 3px;
+	margin-right: 5px;
+	cursor: pointer;
+	color: #666;
+}
+.chart-tool-bar .chart-option:hover {
+	color: #000;
+}
+.chart-tool-bar .chart-option-selected {
+	color: #3faf6c;
+}
+.c3 svg {
+	font: 13px arial, helvetica, sans-serif;
+}
+.c3-legend-item text {
+	font-size: 15px;
+}
+#tr_rec:hover, #tr_desp:hover {
+    background: #dee4ea;
+	color: #222;
+}
+.details-icon {
+    color: #3FAF6C;
+    font-size: 9pt;
+    margin-right: 5px;
+}
+.link-detail:hover, .link-detail-selected {
+    cursor: pointer;
+}
+.link-detail:hover {
+    background-color: #DEE4EA;
+}
+.link-detail-selected {
+    color: #FFF !important;
+    background-color: #3FAF6C !important;
+}
+.top-search-scroll {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+.top-search{
+    position: relative;
+}
+.fixed-overflow {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 6%;
+}
+#dre-table th:not(:nth-child(1)),
+#dre-table td:not(:nth-child(1)),
+#balancete-table th:not(:nth-child(1)),
+#balancete-table td:not(:nth-child(1)),
+#fluxocaixa-table th:not(:nth-child(1)),
+#fluxocaixa-table td:not(:nth-child(1)){
+    text-align: right;
+}
+.tabela-listagem tr th {
+    color: #394354 !important;
+}
+.tabela-listagem tr[nodelevel^="0"] td:not(:nth-child(1)){
+    font-weight: bold;
+    color: #394354;
+}
+
+.breadcrumb-chart {
+    border: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#dre-table tr th {
+	height: 30px !important;
+}

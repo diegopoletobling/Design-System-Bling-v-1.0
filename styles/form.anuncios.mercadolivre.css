@@ -1,0 +1,265 @@
+section#sectionAnuncios {
+    padding-left: 25px;
+    background-color: #f2faf8;
+}
+
+div#filtrosAnuncios,
+div#actions {
+    position: sticky;
+    z-index: 3;
+    background-color: #f2faf8;
+}
+
+div#filtrosAnuncios {
+    top: 149px;
+    padding-top: 15px;
+}
+
+div#actions {
+    top: 222px;
+}
+
+.container-anuncios div#addDatatableAnuncios table thead tr th {
+    top: 255px;
+}
+
+form#formFiltrosAnuncios select {
+    background-image: linear-gradient(45deg, transparent 48%, #2FAC66 50%), linear-gradient(135deg, #2FAC66 48%, transparent 50%);
+}
+
+div#addDatatableAnuncios {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+div#addDatatableAnuncios table tbody {
+    box-shadow: 0px 1px 4px #E3E3E3;
+}
+
+.container-anuncios div#addDatatableAnuncios table tr.showInfoAnuncios {
+    border-bottom: initial;
+    margin-bottom: 30px;
+}
+
+div#addDatatableAnuncios table tr {
+    height: 45px;
+}
+
+div#addDatatableAnuncios table tr.tableInfoAnuncios {
+    display: none;
+}
+
+div#addDatatableAnuncios table tr.tableInfoAnuncios.active {
+    display: table-row;
+}
+
+div#addDatatableAnuncios table tr.tableInfoAnuncios.active td {
+    padding: initial;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div#addDatatableAnuncios table tr.tableInfoAnuncios.active td>div {
+    border-top: 1px solid #E3E3E3;
+    padding-top: 10px;
+}
+
+.container-anuncios div#addDatatableAnuncios table tr:hover+.tableInfoAnuncios.active {
+    background-color: #F1F1F1;
+}
+
+.container-anuncios div#addDatatableAnuncios table tr.showInfoAnuncios.hover {
+    background-color: #F1F1F1;
+}
+
+.tableInfoAnuncios.active td div ul {
+    padding-left: 0px;
+}
+
+.tableInfoAnuncios.active td div ul li {
+    display: inline-block;
+    min-width: 250px;
+    min-height: 65px;
+    border-right: 1px solid #E3E3E3;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.tableInfoAnuncios.active td div ul li:last-child {
+    border-right: none;
+}
+
+.tableInfoAnuncios.active td div ul li:last-child div.infoSideBar {
+	padding-top: 6px;
+}
+
+.tableInfoAnuncios.active td div ul li div.wrapper {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-template-areas: 'lsidebar content';
+}
+
+.tableInfoAnuncios.active td div ul li div.infoSideBar {
+    grid-area: lsidebar;
+}
+
+.tableInfoAnuncios.active td div ul li div.infoContent {
+    grid-area: content;
+    position: relative;
+}
+
+.tableInfoAnuncios.active td div ul li div.infoContent .infoTitle {
+    text-align: left;
+    font: Bold 13px/15px Arial;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.tableInfoAnuncios.active td div ul li div.infoContent .infoDetails {
+    padding-top: 5px;
+    text-align: left;
+    font: Regular 12px/14px Arial;
+    letter-spacing: 0;
+    color: #707070;
+    display: inline-grid;
+}
+
+.tableInfoAnuncios.active td div ul li div.infoContent .infoDetails span {
+    margin-bottom: 3px;
+}
+
+.imgDetailBtn {
+	background-color: #cccccc;
+	max-height: 25px;
+	min-width: 80px;
+	font-size: 10px;
+	padding-top: 0px;
+}
+
+.modalContentInfo {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.modalItemTitle {
+	font-weight: bolder;
+	font-size: 13px;
+}
+
+span.fas.fa-ad-discount:before {
+    content: url("./images/icons/ad-discount.svg");
+}
+
+span.fas.fa-ad-eligibility:before {
+    content: url("./images/icons/ad-eligibility.svg");
+}
+
+span.fas.fa-ad-mode:before {
+    content: url("./images/icons/ad-mode.svg");
+}
+
+span.fas.fa-ad-quality:before {
+    content: url("./images/icons/ad-quality.svg");
+}
+
+span.fas.fa-ad-validity:before {
+    content: url("images/icons/ad-validity.svg");
+}
+
+span.fas.fa-exclamation-triangle:before,
+span.fas.fa-images:before,
+span.fas.fa-trophy:before {
+    color: #cccccc;
+	font-size: 13pt;
+}
+
+span.fas.fa-shipping-fast:before {
+	color: #cccccc;
+	font-size: 13pt;
+}
+
+span.fas.fa-chevron-down:before {
+    opacity: 0.6;
+}
+
+span.fas.fa-circle:before {
+    color: #CCCCCC;
+}
+
+span.fas.fa-circle.ad-active:before {
+    color: #01D67C;
+}
+
+span.fas.fa-circle.ad-closed:before {
+    color: #FF4646;
+}
+
+span.fas.fa-circle.ad-paused:before {
+    color: #E3E338;
+}
+
+.container-anuncios div#addDatatableAnuncios table tr.showInfoAnuncios span.fas.fa-chevron-down:before {
+    content: "\f077";
+    /*fa-chevron-up*/
+}
+
+#addPaginationAnuncios .pagination li span {
+	max-width: 130px;
+	min-width: 130px;
+}
+
+#addPaginationAnuncios .pagination .loading-data {
+	display: none;
+	background: #80808029;
+}
+
+#addPaginationAnuncios .pagination .loading-data:after {
+	content: '.';
+	animation: ad-dots 1s steps(5, end) infinite;
+}
+
+.remove-selected {
+	cursor: pointer;
+	margin-left: 5px;
+	color: #7CB5D8;
+}
+
+@keyframes ad-dots {
+	0%, 20% {
+		color: rgba(0, 0, 0, 0);
+		text-shadow: .25em 0 0 rgba(0, 0, 0, 0),
+		.5em 0 0 rgba(0, 0, 0, 0);
+	}
+	40% {
+		color: #3FAF6B;
+		text-shadow: .25em 0 0 rgba(0, 0, 0, 0),
+		.5em 0 0 rgba(0, 0, 0, 0);
+	}
+	60% {
+		text-shadow: .25em 0 0 #3FAF6B,
+		.5em 0 0 rgba(0, 0, 0, 0);
+	}
+	80%, 100% {
+		text-shadow: .25em 0 0 #3FAF6B,
+		.5em 0 0 #3FAF6B;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+    #navbarList>ul>li.navbar-action-container-item {
+        display: block;
+    }
+    div#filtrosAnuncios {
+        display: none;
+    }
+    #lista [id^="addDatatable"] .tabela-listagem tr {
+        top: 30px;
+    }
+    #lista [id^="addDatatable"] .tabela-listagem tr.tableInfoAnuncios {
+        display: none;
+    }
+    #lista [id^="addDatatable"] .tabela-listagem tr.tableInfoAnuncios.active {
+        display: table-row;
+    }
+}

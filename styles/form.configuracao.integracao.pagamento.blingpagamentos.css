@@ -1,0 +1,177 @@
+#blingpagamentos-integration-configuration div[id^="form_"] > div {
+	position: relative;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] h1 {
+	margin: 0 0 25px 0;
+	font: 36px/34px Gilroy-Bold;
+	letter-spacing: 0px;
+	color: #666;
+	opacity: 1;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] h1 span {
+	line-height: 5px;
+	font: normal normal normal 12px/18px Arial;
+	letter-spacing: 0px;
+	color: #666666;
+	opacity: 1;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] h2 {
+	font: 20px/28px Gilroy-Bold;
+	letter-spacing: 0px;
+	color: #666666;
+	opacity: 1;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] p {
+	font: 12px/18px Arial;
+	letter-spacing: 0px;
+	color: #666666;
+	opacity: 1;
+	padding: 0;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] label {
+	text-align: left;
+	font: 13px/18px Arial;
+	letter-spacing: 0px;
+	color: #666666;
+	opacity: 1;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] button {
+	width: 105px;
+	outline: none;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] button.redirect-caixa {
+	width: 145px;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] input,
+#blingpagamentos-integration-configuration div[id^="form_"] select {
+	margin-bottom: 12px;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] select option:nth-child(1) {
+	display: none;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] .button-secundary,
+#blingpagamentos-integration-configuration div[id^="form_"] .button-secundary:focus,
+#blingpagamentos-integration-configuration div[id^="form_"] .button-secundary:hover {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #CCCCCC;
+	color: #666;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] .helper-links p,
+#blingpagamentos-integration-configuration div[id^="form_"] .helper-links a {
+	text-decoration: none;
+	font: 12px/14px Arial;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #05AAE9;
+	opacity: 1;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"].bling-form,
+#blingpagamentos-integration-configuration div[id^="form_"] .bling-form {
+	margin: 0;
+	box-shadow: none;
+}
+
+#blingpagamentos-integration-configuration div[id^="form_"] .bling-form .buscaCep {
+	top: -35px;
+}
+
+#blingpagamentos-integration-configuration .helper-step {
+	text-align: unset;
+	display: block;
+	background-color: #FFF;
+	min-height: 550px;
+	color: #666;
+}
+
+#blingpagamentos-integration-configuration .helper-step .button-default-novo {
+	background-color: #3FAF6C;
+	width: 140px;
+	height: 36px;
+	border-radius: 1px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+#blingpagamentos-integration-configuration .helper-step .btn-secundary-novo {
+	width: 140px;
+	height: 36px;
+}
+
+#blingpagamentos-integration-configuration .helper-step .button-default-novo:hover,
+#blingpagamentos-integration-configuration .button-default-novo:focus {
+	background-color: #49B776;
+}
+
+#blingpagamentos-integration-configuration #email-address-info {
+	color: #37A661;
+}
+
+#blingpagamentos-integration-configuration .margin-top-15 {
+	margin-top: 15px;
+}
+
+#blingpagamentos-integration-configuration .padding-0 {
+	padding: 0 0 0 0;
+}
+
+#blingpagamentos-integration-configuration #info_trial p {
+	margin: 6px;
+	font-size: 10pt;
+}
+
+#blingpagamentos-integration-configuration #info_trial i {
+	font-size: 16px;
+	height: 21px;
+	width: 22px;
+}
+
+#blingpagamentos-integration-configuration #info_trial .fa-check {
+	color: #3FAF6C;
+}
+
+#blingpagamentos-integration-configuration #info_trial .fa-times {
+	color: #E6554E;
+}
+
+#left-bar {
+	max-width: none;
+	margin-top: 0;
+}
+
+#left-bar .selected {
+	background-color: #37A661;
+}
+
+#form_blingpagamentos_hotsite.helper-step {
+	text-align: center;
+}
+
+#form_blingpagamentos_data_confirmation #check-data {
+	text-decoration: none;
+}
+
+#form_blingpagamentos_2step_verification h1,
+#form_blingpagamentos_validacao_sms h1 {
+	margin: 0 !important;
+}
+
+#info_tipo_doc {
+	margin-bottom: 24px;
+}

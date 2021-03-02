@@ -1,0 +1,748 @@
+h1 {
+	color: #157dc2;
+	font-size: 19pt;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+h2{color:#ccc;font-weight:normal; border-bottom:1px solid rgb(14,39,65);padding-bottom:5px;
+	color: #000;
+}
+h3{color:#fff;
+	color: #666;
+	padding-top: 0px;
+}
+h4{color:rgb(0,176,210)}
+
+body{background:#1E4369;color:#999;
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+}
+
+#formContato {
+	width: 345px;
+}
+
+#formContato input[type="text"], #formContato textarea {
+	margin: 0px 0 10px 0;
+	padding: 3px 5px 3px 5px;
+	width: 330px;
+}
+
+#formContato #controls {
+	text-align: right;
+}
+
+#poweredBy {
+	margin-left: 40px;
+}
+
+#formContato .enviar, #formInscricao .enviar {
+	width: 111px;
+	height: 38px;
+	background-image: url("../capa/tinypro/bt_enviar.png");
+	border: 0px solid #000;
+	text-indent: -1000px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+#formContato .enviar:hover {
+	background-position: 0 -38px;
+}
+
+#main-container{background:#1E4369;
+	background-color: #fff;
+}
+#container{background:#1E4369;
+	background-color: #fff;
+}
+#container #content{width:100%;background:#1E4369;
+	background-color: #fff;
+	min-height: 10px;
+	background-color: transparent;
+}
+
+#header-container{width:100%;height:75px;}
+
+#header-content{width:960px;height:0px;margin:0 auto; padding:0;background:url(capa/images/easymaker_02.png) no-repeat;}
+#header-home{width:525px;float:left;}
+#header-fone{width:260px;height:0;margin:0 auto; padding:0;background:url(capa/images/tinypro_03.png) no-repeat;float:left;}
+
+#banner-container{width:100%;height:322px;background:#1E4369;
+	background-color: transparent;
+}
+#banner-content{width:960px;height:322px;margin:0 auto; padding:0; font-size:.9em;text-align:left;background:url(capa/images/tinypro_06.png) no-repeat;
+	background-image: none;
+	
+}
+
+#banner {
+	margin: 20px auto 0 auto;
+	height: 273px;
+	width: 960px;
+	position: relative;
+}
+
+#video_home {
+	position: absolute;
+	right: 0px;
+	top: 27px;
+	z-index: 10;
+}
+
+#login-box{position:absolute;width:170px;height:220px; font-size:.9em;text-align:left;margin-top:27px;margin-left:625px;padding:62px 25px;
+	margin: 0 0 0 625px;
+	position: static;
+}
+#login-box p{padding:0; color:#FFF;
+	color: #000;
+	display: inline;
+}
+#login-box a{color:#FFF;}
+
+.full {
+	float: none;
+}
+
+#main-banner{position:absolute;width:260px;height:200px;margin-left:220px;
+	margin: 0px;
+}
+
+#main-banner #container {
+	background-color: transparent;
+}
+
+#main-banner .detalhe{font-size:11pt;font-weight:normal;color:#ccc;text-decoration:none;display:block;padding-bottom:25px;}
+
+#menu-container{width:100%;height:49px;background:rgb(14,39,65);color:#fff;clear:both;
+	background: url(images/topo.png) repeat-x;
+	margin: 0px;
+	height: 107px;
+	background-color: transparent;
+	position: relative;
+	top: 7px;
+}
+#menu-content{width:960px;height:39px;margin:0 auto; padding:0; font-size:.9em;text-align:left;
+	width: 960px;
+	position: relative;
+}
+
+#menu-content h1 {
+	width: 166px;
+	margin: 35px 0 0 0;
+	background: url(images/logo.png) no-repeat;
+	display: block;
+	height: 44px;
+	float: left;
+}
+
+#menu-content h1 a {
+	display: block;
+	width: 166px;
+	height: 100%;
+	outline: none;
+}
+
+#menu-content h1 span {
+	display: none;
+}
+
+#menu-content ul {
+	margin: 0px 0 0 170px;
+	padding: 45px 0 0 0;
+ 	height: 25px;
+	text-align: right;
+	position: relative;
+	clear: none;
+}
+
+#topo_home {
+	background-image: url("images/faixa_azul.png");
+	background-repeat: repeat-x;
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	z-index: -1;
+	top: 0px;
+}
+
+#topo {
+	background-image: url("images/faixa_azul.png");
+	background-repeat: repeat-x;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	z-index: -1;
+	top: 0px;
+}
+
+#superior_como_funciona p {
+	background: url(../capa/tinypro/destaque_como_funciona.png) no-repeat;
+	width: 960px;
+	height: 70px;
+	display: block;
+	text-indent: -30000px;
+	margin: 20px auto 0 auto;
+}
+
+.caracteristicas{
+	float: left;
+	margin-top: 52px;
+}
+#ultima{
+	margin-bottom: 52px;
+}
+.caracteristicas img{
+	float: left;
+	clear: none;
+}
+.caracteristicas .caracteristica_titulo{
+	margin-left: 25px;
+}
+.caracteristicas .planos{
+	float: right;
+	clear: none;
+	width: 320px;
+}
+.caracteristicas .planos h3{
+	background: url(../capa/tinypro/disponivel_nos_planos.png) no-repeat;
+	width: 165px;
+	height: 25px;
+	display: block;
+	float: left;
+	clear: none;
+	text-indent: -30000px;
+	border: 0px solid #000;
+	margin: 0px;
+	padding: 0px;
+}
+.caracteristicas .planos ul{
+	width: 135px;
+	list-style: none;
+	float: left;
+	clear: none;
+	margin: 0px;
+	padding: 0px;
+}
+.caracteristicas .planos ul li{
+	float: left;
+	clear: none;
+	margin-left: 15px;
+}
+.caracteristicas p{
+	float: left;
+	clear: none;
+	width: 570px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+	color: #5a626a;
+	font-size: 11pt;
+}
+
+span.button a.green{color:#FFFFFF; padding:0 0 0 12px; background:#87C80A url(images/btn_blue_left.png) left top no-repeat; }
+span.button a.green:hover{padding:0 0 0 12px; background:#87C80A url(images/btn_blue_left.png) 0 -32px no-repeat; }
+span.button a.green span{background:#87C80A url(images/btn_blue_right.png) right top no-repeat; }
+span.button a.green:hover span{background:#87C80A url(images/btn_blue_right.png) right -32px no-repeat; }
+
+.button-default{background:url(images/btn-blue.png) no-repeat; color:#fff; cursor:pointer; font-weight:bold; font-size:8pt; height:30px; width:100px; margin:0 2px 0 2px; border:0;}
+.button-default:hover,.button-default:focus{background:url(images/btn-blue.png) 0 -30px no-repeat; color:#fff; cursor:pointer; }
+
+*{
+	/*margin: 0;
+	padding: 0;*/
+	outline: none;
+	/*clear: both;*/
+	font-family: "Tahoma", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #7d878f;
+}
+
+li img, .nro_direita, .produto a, .banner_faca_um_teste, li, .produto h1 {
+	clear: both;
+}
+
+.conteudo{
+	margin: 0 auto;
+	width: 940px;
+}
+
+#conteudo_central {
+	margin: 0px 0 0 0;
+}
+
+#conteudo_central #faixa{
+	background: url("../capa/tinypro/faixa_central.png") repeat-x;
+	display: block;
+	height: 104px;
+	width: 100%;
+	border-top: 1px solid #0e588b;
+}
+#conteudo_central #faixa #como_funciona{
+	background: url(../capa/tinypro/como_funciona_titulo.png);
+	display: block;
+	width: 247px;
+	height: 58px;
+	margin-top: 25px;
+	float: left;
+	clear: none;
+}
+#conteudo_central #faixa p{
+	clear: none;
+	position: relative;
+	float: left;
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 13px;
+	color: #206197;
+	width: 475px;
+	margin-top: 36px;
+	margin-left: 40px;
+}
+#conteudo_central #faixa h2{
+	margin-top: 40px;
+	clear: none;
+	float: right;
+	margin-right: 5px;
+	border: 0px solid #000;
+	padding: 0px;
+}
+#conteudo_central #faixa h2 a{
+	background: url(../capa/tinypro/bt_veja_mais.png);
+	width: 142px;
+	height: 38px;
+	display: block;
+	text-indent: -30000px;
+}
+#conteudo_central #faixa h2 a:hover{
+	background-position: bottom;
+}
+#conteudo_central #conteudo_principal:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+}
+#conteudo_central #conteudo_principal h2{
+	background: url(../capa/tinypro/escolha_o_melhor_plano.png) no-repeat;
+	width: 661px;
+	height: 35px;
+	display: block;
+	text-indent: -30000px;
+	margin-top: 30px;
+	margin-left: 135px;
+	border: 0px solid #000;
+	padding: 0px;
+}
+#conteudo_central #conteudo_principal .produto1{
+	width: 160px;
+	float: left;
+	clear: none;
+}
+
+.produto1 ul, .produto ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#conteudo_central #conteudo_principal .produto{
+	width: 160px;
+	float: left;
+	clear: none;
+	margin-left: 30px;
+}
+#conteudo_central #conteudo_principal h1{
+	text-indent: -30000px;	
+}
+#conteudo_central #conteudo_principal h3{
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: normal;
+	color: #7D878F;
+	border: 0px solid #000;
+	text-transform: uppercase;
+}
+#conteudo_central #conteudo_principal ul{
+	list-style: url(../capa/tinypro/list_style.png) inside;
+	margin-top: 9px;
+}
+#conteudo_central #conteudo_principal ul li{
+	text-decoration: none;
+	margin-top: 2px;
+}
+#conteudo_central #conteudo_principal ul .nro_direita{
+	margin: 0px;
+	float: right;
+}
+#conteudo_central #conteudo_principal ul .s_estilo{
+	list-style: none;
+}
+#conteudo_central #conteudo_principal ul img{
+	margin-top: 3px;
+	float: right;
+}
+#conteudo_central #conteudo_principal a{
+	background: url(../capa/tinypro/bt_assine.png) top no-repeat;
+	width: 152px;
+	height: 38px;
+	display: block;
+	text-indent: -30000px;
+	margin-top: 15px;
+}
+#conteudo_central #conteudo_principal a:hover{
+	background: url(../capa/tinypro/bt_assine.png) bottom no-repeat;
+}
+/*Preços*/
+#conteudo_central #conteudo_principal .preco_1{
+	background: url(../capa/tinypro/preco_1.png) no-repeat;
+	width: 95px;
+	height: 44px;
+	margin-top: 22px;
+	margin-bottom: 15px;
+	margin: 22px auto 15px auto;
+}
+#conteudo_central #conteudo_principal .preco_2{
+	background: url(../capa/tinypro/preco_2.png) no-repeat;
+	width: 135px;
+	height: 46px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#conteudo_central #conteudo_principal .preco_3{
+	background: url(../capa/tinypro/preco_3.png) no-repeat;
+	width: 134px;
+	height: 44px;
+	margin-top: 22px;
+	margin-bottom: 15px;
+}
+#conteudo_central #conteudo_principal .preco_4{
+	background: url(../capa/tinypro/preco_4.png) no-repeat;
+	width: 134px;
+	height: 46px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#conteudo_central #conteudo_principal .preco_5{
+	background: url(../capa/tinypro/preco_5.png) no-repeat;
+	width: 150px;
+	height: 44px;
+	margin-top: 22px;
+	margin-bottom: 15px;
+}
+#conteudo_central #conteudo_principal .banner_faca_um_teste{
+	position: relative;
+	top: 33px;
+}
+#conteudo_central #conteudo_principal .banner_faca_um_teste a{
+	background: url(../capa/tinypro/banner_experimente.png) top no-repeat;
+	width: 921px;
+	height: 96px;
+	display: block;	text-indent: -30000px;
+}
+#conteudo_central #conteudo_principal .banner_faca_um_teste a:hover{
+	background: url(../capa/tinypro/banner_experimente.png) bottom no-repeat;
+}
+#conteudo_central #conteudo_principal a:hover{
+	text-decoration: underline;
+}
+
+#planos h1 {
+	background-image: url("images/escolha.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 680px;
+	margin: 0 auto;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+
+#planos table {
+	width: 100%;
+	margin: 30px 0 30px 0;
+}
+
+#planos table tr th {
+	color: #7d878f;
+	font-size: 14pt;
+	padding: 10px 0 10px 50px;
+	text-transform: uppercase;
+}
+
+#planos table tr td {
+	color: #7d878f;
+	font-size: 8pt;
+	padding: 0 0 0 45px;
+}
+
+#planos table tr td:first-child, #planos table tr th:first-child {
+	padding: 0px;
+}
+
+#planos table tr td.value {
+	padding: 0px;
+	text-align: right;
+}
+
+#planos table tr td.checked {
+	background-image: url("images/checked_01.png");
+	min-width: 16px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#planos table tr td.not-checked {
+	background-image: url("images/cross_01.png");
+	min-width: 16px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#planos table tr td.precos {
+	font-size: 14pt;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.big {
+	font-size: 24pt;
+}
+
+.assinar {
+	margin: 10px auto 0 auto;
+	width: 151px;
+	height: 38px;
+	text-indent: -1000px;
+	background-image: url("images/assine.png");
+	border: 0px solid #000;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#inner-footer-container{width:100%;height:278px;margin:0 auto;background:#d8d8d8;clear:both;
+	background-image: url("images/faixa_rodape.png");
+	background-repeat: repeat-x;
+	height: 128px;
+	margin-top: 80px;
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+}
+
+.inner-footer {
+	text-align: center;
+	background-image: url("images/divisao_rodape.png");
+	background-repeat: repeat-x;
+	background-position: center center;
+	height: 108px;
+	color: #fff;
+	padding: 30px 0 0 0;
+}
+
+.inner-footer p {
+	font-size: 1pt;
+	margin: 0px auto;
+	padding: 0px;
+	height: 25px;
+	width: 420px;
+	background-image: url("../capa/tinypro/direitos.png");
+	white-space: nowrap;
+	text-indent: -3000px;
+	overflow: hidden;
+}
+
+.inner-footer ul {
+	margin: 30px 0 0 0;
+	padding: 0px;
+}
+
+.inner-footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.inner-footer ul li:last-child a {
+	border-left: 1px solid #fff;
+}
+
+.inner-footer ul li a {
+	color: #fff;
+	padding: 5px;
+}
+
+#cards{padding:0;}
+.card{float:left; padding:0px 10px 10px 10px;margin:5px 15px 5px 5px;background:#fff no-repeat; border:1px solid #ddd;}
+.card a{font-size:9pt; line-height:18px; color:#3E4034; text-decoration:none; }
+.card a:hover{cursor:pointer; text-decoration:underline;font-weight:bold; }
+.card ul{list-style-type:none; padding:3px 0 0 12px; margin:0; }
+.card .nome{font-size:14pt;font-weight:bold;color:#9BC115;}
+.card .categoria{font-size:9pt;font-weight:normal;color:#666;}
+.card .preco{font-size:11pt;font-weight:bold;color:#46B4C1;}
+
+
+.card-capa {width:400px;padding-top:10px;padding-right:10px;padding-bottom:10px;height:auto;}
+.card-capa .titulo{font-size:12pt;color:#FFF;font-weight:bold;} /*#2BABAF*/
+.card-capa .texto{font-size:8pt;padding-top:5px;}
+
+#menu-content ul li {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: bottom;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu-content ul li input[type='text'], #menu-content ul li input[type='password'] {
+	width: 100px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px 5px;
+	margin: -5px 0 0 0px;
+	height: 19px;
+}
+
+#menu-content ul li input[type='button']{
+	width: 25px;
+	height: 25px;
+	margin: -4px 0 0 5px;
+	padding: 0px;
+}
+
+#menu-content ul li p.caption {
+	color: #666;
+	font-weight: normal;
+	text-align: left;
+	margin: 0 0 0 5px;
+	display: none;
+}
+
+#menu-content .menu-item {
+	display: inline-block;
+	list-style-type: none;
+	float: none;
+	overflow: hidden;
+	height: 25px;
+	margin: 0 10px 0 0;
+	width: auto;
+}
+
+.menu-item a{font-size:9pt;font-weight:bold;color:#fff;text-decoration:none;display:block;height:32px;padding-top:17px;
+	color: #000;
+	height: 25px;
+	overflow: hidden;
+	padding: 0px;
+}
+.menu-item a:hover{color:#fff;background:rgb(0,169,204);
+	background-color: transparent;
+}
+
+.button-login {
+	background-image: url("images/login-arrow.png");
+	border: 0px solid #000;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	text-indent: -1000px;
+}
+
+#menu-content #item-precos {
+	background-image: url("images/bt_planos.png");
+	width: 54px;
+	text-indent: -1000px;
+}
+
+#menu-content #item-precos:hover {
+	background-position: 0 -25px;
+}
+
+#menu-content #item-contato {
+	background-image: url("images/bt_contato.png");
+	width: 63px;
+	text-indent: -1000px;
+}
+
+#menu-content #item-contato:hover {
+	background-position: 0 -25px;
+}
+
+#menu-content #item-parceiro {
+	background-image: url("images/parceiros.png");
+	width: 76px;
+	text-indent: -1000px;
+}
+
+#menu-content #item-parceiro:hover {
+	background-position: 0 -25px;
+}
+
+#menu-content .menu-item-marked {
+	background-position: 0 -25px;
+}
+
+#menu-content #item-inscricao {
+	background-image: url("images/bt_inscricao.png");
+	width: 95px;
+	text-indent: -1000px;
+}
+
+#menu-content #item-inscricao:hover {
+	background-position: 0 -25px;
+}
+
+#menu-content #item-info {
+	background-image: url("images/bt_como.png");
+	width: 122px;
+	text-indent: -1000px;
+}
+
+#menu-content #item-info:hover {
+	background-position: 0 -25px;
+}
+
+.titulo{font-size:12pt;color:#FFF;font-weight:bold;} 
+.caption{margin:5px 0 0 0; padding:3px 0 0 0; font-weight:bold; font-size:8pt; color:#ddd;
+	color: #7D878F;
+}
+.info{color:#aaa;
+	color: #8d979f;
+}
+
+.inner {
+	padding-top: 30px;
+}
+
+#slot_plano {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#diverro {
+	/*width: 960px;
+	text-align: right;
+	margin: -5px auto;*/
+	background-image: url("../capa/tinypro/imagens/pop01.png");
+	padding: 18px 10px 0 10px;
+	width: 282px;
+	position: absolute;
+	right: 30px;
+	top: 100px;
+	height: 20px;
+	text-align: center;
+	display: none;
+}
+
+#divesq {
+	margin: 2px auto 0 auto;
+	width: 890px;
+	text-align: right;
+	clear: none;
+}

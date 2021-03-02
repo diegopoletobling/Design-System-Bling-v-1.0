@@ -1,0 +1,95 @@
+.zoomPad {
+    cursor: crosshair;
+    float: center;
+    position: relative;
+   /* z-index: 99;*/
+}
+.zoomPreload {
+    background-color: white;
+    background-image: url("../images/zoomloader.gif");
+    background-position: 43px 30px;
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 43px;
+    left: 0;
+    opacity: 0.8;
+    padding: 8px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 90px;
+    z-index: 110;
+}
+
+.zoomPup {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    cursor: crosshair;
+    opacity: 0.6;
+    overflow: hidden;
+    position: absolute;
+    z-index: 101;
+    text-align: center;
+}
+.zoomOverlay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+}
+.zoomWindow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: auto;
+    left: 110%;
+    position: absolute;
+    top: 40px;
+    z-index: 110;
+}
+.zoomWrapper {
+    border: 1px solid #999999;
+    position: relative;
+    z-index: 110;
+}
+.zoomWrapperTitle {
+    backgorund: none repeat scroll 0 0 #999999;
+    color: #FFFFFF;
+    display: block;
+    font-size: 10px;
+    height: 18px;
+    left: 0;
+    line-height: 18px;
+    opacity: 0.6;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 120;
+    display: none;
+}
+.zoomWrapperImage {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    z-index: 110;
+}
+.zoomWrapperImage img {
+   	border: 0 none;
+    display: inline;
+    position: absolute;
+    z-index: 101;
+}
+.zoomIframe {
+    display: block;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
