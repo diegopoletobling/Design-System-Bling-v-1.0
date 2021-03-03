@@ -492,7 +492,7 @@ styleh4 .Q1 {
 }
 
 .normal .breadcrumb a {
-    color: #333333;
+    color: #999;
     font-size: 20px;
     font-weight: 300;
 }
@@ -533,4 +533,12 @@ styleh4 .Q1 {
     padding: 6px 13px 10px 45px;
     font-size: 16px;
     background-color: white;
+}
+
+.breadcrumb {
+	border-bottom: 0px;
+}
+
+.breadcrumb a{
+	color: #999;
 }

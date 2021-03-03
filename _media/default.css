@@ -335,13 +335,13 @@ body {
     margin: 30px 0px 0px 0px;
 }
 
-.markdown-section .normal a {
+.normal a {
     text-decoration: none;
     font-size: 23px;
     color: #37A661;
 }
 
-.markdown-section .desabilitado a {
+.desabilitado a {
     text-decoration: none;
     font-size: 23px;
     color: #37A661;
@@ -491,9 +491,17 @@ body {
 }
 
 .normal .breadcrumb a {
-    color: #333333;
+    color: #999;
     font-size: 20px;
     font-weight: 300;
+}
+
+.normal h4 {
+	color: orange;
+}
+
+.normal i {
+	color: green;
 }
 
 .mdc-layout-grid__inner {
@@ -516,4 +524,8 @@ body {
     font-size: 12px;
     height: auto!important;
     min-height: auto!important;
+}
+
+.breadcrumb {
+	border-bottom: 0px;
 }
