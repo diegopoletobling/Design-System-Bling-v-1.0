@@ -7,5 +7,7 @@
 	* [Componentes / Action link](actionLink.md)
 	* [Componentes / Accordion](accordion.md)
 	* [Componentes / Alerts](alerts.md)
-	* [Componentes / Breadcrumb](breadcrumb.md)
 	* [Componentes / Autocomplete](autocomplete.md)
+	* [Componentes / Bar Progress](barProgress.md)
+	* [Componentes / Breadcrumb](breadcrumb.md)
+	

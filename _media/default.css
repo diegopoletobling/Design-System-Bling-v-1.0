@@ -529,3 +529,12 @@ body {
 .breadcrumb {
 	border-bottom: 0px;
 }
+
+.bling-form input~span {
+	top: 0px;
+	top: 12px;
+}
+
+.bling-form input:not([type=checkbox]):not([type=radio]), .bling-form select, .bling-form textarea, .bling-form .chosen-choices, .bling-item-form {
+    padding-left: 20px;
+}
