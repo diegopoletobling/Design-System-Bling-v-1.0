@@ -6,7 +6,7 @@ tarefa ou operação. Mostra quanto da tarefa foi concluída e quanto ainda rest
 
 ![](../_media/images/iconBarProgress.png)
 
-## Exemplo em código da Bar Progress
+### Exemplo em código da Bar Progress
 
 ```css
 <div class="row dados-armazenamento">
@@ -22,5 +22,5 @@ tarefa ou operação. Mostra quanto da tarefa foi concluída e quanto ainda rest
 	</div>
 </div>
 ```
-## Exemplo de utilização no site
+### Exemplo de utilização no site
 ![](../_media/images/barProgress.png)

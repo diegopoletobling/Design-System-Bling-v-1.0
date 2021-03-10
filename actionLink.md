@@ -5,7 +5,7 @@
 um arquivo...etc
 
 [](_media/live-examples/actionLink.html ':include :type=iframe width=100% height=72px')
-## Regras de uso no Bling
+### Regras de uso no Bling
 
 Esse componente é usado em listagens dentro de modais ou páginas. É recomendado seu uso
 quando já existe na interface um CTA e um secundar button.

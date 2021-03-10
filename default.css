@@ -31,13 +31,13 @@ body {
 
 .markdown-section h2 {
     color: #868686;
-    font-size: 20px;
+    font-size: 33px;
     margin: 20px 0px 0px 0px;
 }
 
 .markdown-section h3 {
     color: #868686;
-    font-size: 16px;
+    font-size: 14px;
     margin: 20px 0px 0px 0px;
 }
 
@@ -541,4 +541,10 @@ styleh4 .Q1 {
 
 .breadcrumb a{
 	color: #999;
+}
+
+.markdown-section a {
+    color: var(--theme-color, #42b983);
+    font-weight: 600;
+    padding-left: 45px;
 }

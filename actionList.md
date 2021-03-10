@@ -6,11 +6,11 @@ Esse botão possibilita que o usuário possa escolher outras ações de mesma na
 pode ser usado para um conjunto de ações que não cabem no espaço disponível na tela.
 
 ![](../_media/images/iconCIL.png)
-## Regras de Uso no Bling
+### Regras de Uso no Bling
 
 Esse componente é usado em listagens dentro de modais ou páginas com data table se precisar.
 
-## Como usar
+### Como usar
 
 O "CommonActions" usado no código a baixo, é um objeto de "Filter", funciona como uma lista de objetos. Cada objeto dessa lista representa respectivamente uma funcionalidade: **Sacola de Compras**, **Imprimir Relatório** e **Excluir os Produtos Selecionados**.
 
